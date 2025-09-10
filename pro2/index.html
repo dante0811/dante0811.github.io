@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/b20d64090a.js" crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="icon" href="img/header_logo.png" type="img/png" sizes="15x15">
+<title>맥도날드</title>
+<style>
+
+.intro{position: fixed;width: 100%; height: 100vh; background-color: rgba(255,255,255,0.8); z-index: 100000;}
+.intro img{max-width: 1000px; margin: auto; margin-top: 100px; border: solid 1px gray;}
+
+@media(max-width:1000px){
+    .intro{display: none;}
+}
+
+
+</style>
+
+</head>
+<body>
+    <div class="intro">
+    <img src="img/mc_pop.png" alt="">
+</div>
+
+<main>
+
+<header>
+
+        <nav class=" container">        
+            <ul class="flex-box" id="menu">        
+                <li class="logo"><a href="index.html"><img src="img/header_logo.png" alt=""></a></li>  
+                <li><a href="#">Menu</a></li>
+                <li><a href="#">Store</a></li>
+                <li><a href="#">What`s new</a></li>
+                <li><a href="#">Story</a></li>
+            </ul>
+        </nav>
+
+                    <div class="sub-menu-box"> <!-- 100% -->
+                            <div class="container flex-box"> <!-- flex 1400 -->
+                                <ul></ul>
+                                <ul>
+                                    <li><a href="menu.html">버거</a></li>
+                                    <li><a href="menu.html">맥런치</a></li>
+                                    <li><a href="menu.html">맥모닝</a></li>
+                                    <li><a href="menu.html">해피 스낵</a></li>
+                                    <li><a href="menu.html">사이드&디저트</a></li>
+                                    <li><a href="menu.html">맥카페&음료</a></li>
+                                    <li><a href="menu.html">해피밀</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">매장찾기</a></li>
+                                    <li><a href="#">맥드라이브</a></li>
+                                    <li><a href="#">임차문의</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="#">프로모션</a></li>
+                                    <li><a href="#">새로운 소식</a></li>
+                                    <li><a href="#">이달의 해피밀</a></li>
+                                </ul>
+                                <ul>
+                                    <li><a href="story.html">브랜드 소개</a></li>
+                                    <li><a href="story.html">사회적 책임과 지원</a></li>
+                                    <li><a href="story.html">맥도날드 품질 이야기</a></li>
+                                    <li><a href="story.html">맥도날드 사람들</a></li>
+                                </ul>
+                            </div>
+            </div>
+                    <!-- 햄버거 버튼 벡터이미지  폰트어썸 아이콘을 사용해도 됨  -->
+            <div id="bt" >
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="#000" class="bi bi-list" viewBox="0 0 16 16">
+                <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+                </svg>
+            </div>  
+
+            <div id="mo-menu-box">   <!--  fixed, right: -100% (숨기기)   right:0(보이기)  -->
+                    <div class="menu">
+                            <div class="menubox">
+                                    <h2>Menu<span><i class="fa-solid fa-angle-right" style="color: #1F1F1F;"></i></span></h2>
+
+                                    <div class="menu-sub">
+                                        <div class="flex-box">
+                                            <div>
+                                                <p><a href="menu.html">버거</a></p>
+                                                <p><a href="menu.html">맥런치</a></p>
+                                                <p><a href="menu.html">맥모닝</a></p>
+                                                <p><a href="menu.html">해피 스낵</a></p>
+                                            </div>
+                                            <div>
+                                                <p><a href="menu.html">사이드&디저트</a></p>
+                                                <p><a href="menu.html">맥카페&음료</a></p>
+                                                <p><a href="menu.html">해피밀</a></p>
+                                            </div>
+                                        </div>
+                                    </div>
+                            </div>
+
+                            <div class="menubox">
+                                <h2>Store<span><i class="fa-solid fa-angle-right" style="color: #1F1F1F;"></i></span></h2>
+                                
+                                <div class="menu-sub">
+                                    <p><a href="#">매장찾기</a></p>
+                                    <p><a href="#">맥드라이브</a></p>
+                                    <p><a href="#">임차문의</a></p>
+                                </div>
+                            </div>
+                            <div class="menubox">  
+                                <h2>What`s new
+                                    <span ><i class="fa-solid fa-angle-right" style="color: #1F1F1F;"></i></span></h2>
+                                
+                                <div class="menu-sub">
+                                    <p><a href="#">프로모션</a></p>
+                                    <p><a href="#">새로운 소식</a></p>
+                                    <p><a href="#">이달의 해피밀</a></p>
+                                </div>
+                            </div>
+                            <div class="menubox">
+                                <h2>Story<span><i class="fa-solid fa-angle-right" style="color: #1F1F1F;"></i></span></h2>
+                                
+                                <div class="menu-sub">
+                                    <p><a href="story.html">브랜드 소개</a></p>
+                                    <p><a href="story.html">사회적 책임과 지원</a></p>
+                                    <p><a href="story.html">맥도날드 품질 이야기</a></p>
+                                    <p><a href="story.html">맥도날드 사람들</a></p>
+                                </div>
+                            </div>
+                    </div>
+            </div>
+
+</header>
+
+
+<section class="sec1 container">
+<div class="swiper mySwiper">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="img/1-sec1_banner1.jpg" alt="" class="pc-ta">
+            <img src="img/m1-sec1_banner1.jpg" alt="" class="phone">
+        </div>
+        <div class="swiper-slide">
+            <img src="img/1-sec1_banner2.jpg" alt="" class="pc-ta">
+            <img src="img/m1-sec1_banner2.jpg" alt="" class="phone">
+        </div>
+        <div class="swiper-slide">
+            <img src="img/1-sec1_banner3.jpg" alt="" class="pc-ta">
+            <img src="img/m1-sec1_banner3.jpg" alt="" class="phone">
+        </div>
+    </div>
+    <div class="swiper-pagination"></div>
+    </div>
+
+</section>
+
+<section class="sec2 container1200">
+    <h2>McDonald`s New & Event</h2>
+<div class="swiper mySwiper_2">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+            <img src="img/1-sec2_banner1.jpg" alt="" class="pc-ta">
+            <img src="img/m1-sec2_banner1.jpg" alt="" class="phone">
+        </div>
+        <div class="swiper-slide">
+            <img src="img/1-sec2_banner2.jpg" alt="" class="pc-ta">
+            <img src="img/m1-sec2_banner2.jpg" alt=""class="phone">
+        </div>
+        <div class="swiper-slide">
+            <img src="img/1-sec2_banner3.jpg" alt="" class="pc-ta">
+            <img src="img/m1-sec2_banner3.jpg" alt=""class="phone">
+        </div>
+        <div class="swiper-slide">
+            <img src="img/1-sec2_banner4.jpg" alt="" class="pc-ta">
+            <img src="img/m1-sec2_banner4.jpg" alt=""class="phone">
+        </div>
+        <div class="swiper-slide">
+            <img src="img/1-sec2_banner5.jpg" alt="" class="pc-ta">
+            <img src="img/m1-sec2_banner5.jpg" alt="" class="phone">
+        </div>      
+    </div>
+    <div class="swiper-pagination"></div>
+</div>
+</section>
+
+<section class="sec3">
+    <h2>McDonald`s Menu</h2>
+
+    <div class="flex-box container1200">
+        <div>
+            <div><a href="menu.html"><img src="img/1-sec3_img1.jpg" alt=""></a></div>
+            <span class="txt1"><a href="menu.html">Burger</a></span>
+        </div>
+        <div>
+            <div><img src="img/1-sec3_img2.jpg" alt=""></div>
+        <span class="txt2"><a href="#">Side&<br>dessert</a></span>
+        </div>
+        <div>
+            <div><img src="img/1-sec3_img3.jpg" alt=""></div>
+            <span class="txt1"><a href="#">McCafe</a></span>
+        </div>
+        <div>
+            <div><img src="img/1-sec3_img4.jpg" alt=""></div>
+            <span class="txt2"><a href="#">Happy<br>Meal</a></span>
+        </div>
+    </div>
+</section>
+
+<section class="sec4">
+    <h2>McDonald's Quality Story</h2>
+
+    <div class="container1200">
+        <embed src="https://www.youtube.com/embed/u2hLpzjQgvc?si=tKX-XS55aKRFZuZK" type="">
+        <div>
+            <span><a href="https://youtu.be/u2hLpzjQgvc?si=ARhGXG5hYEO08zm-">보러가기</a></span>
+        </div>
+    </div>
+
+</section>
+
+
+
+<footer>
+<div class="flex-box container1200">
+    <nav class="text-white">
+        <ul>
+            <li><a href="#"></a>개인정보 처리방침</li>
+            <li><a href="#"></a>사이트맵</li>
+            <li><a href="#"></a>임차문의</li>
+            <li><a href="#"></a>고객문의</li>
+            <li><a href="#"></a>인재채용</li>
+        </ul>
+    </nav>
+
+    <nav class="text-gray">
+        <ul>
+            <li><a href="#">한국맥도날드(유)</a></li>
+            <li><a href="#">대표이사 : 김기원</a></li>
+            <li><a href="#">사업자등록번호 : 101-81-26409</a></li>
+            <li><a href="#">전화주문 : 1600-5252</a></li>
+            <li><a href="#">COPYRIGHT © 2019 ALL RIGHTS RESERVED BY McDonald's.</a></li>
+        </ul>
+    </nav>
+
+        <div>
+                <div class="flex-box footer1">
+                    <img src="img/footer_sns1.jpg" alt="">
+                    <img src="img/footer_sns2.jpg" alt="">
+                    <img src="img/footer_sns3.jpg" alt="">
+                    <img src="img/footer_sns4.jpg" alt="">
+                    <img src="img/footer_mark1" alt="" class="img">
+                </div>
+                <div class="flex-box footer2">
+                    <div><img src="img/footer_mark2" alt="" class="img"></div>
+                    <span>[인증범위 : 대외서비스(홈페이지, 맥딜리버리, 채용, VOC, <br>
+                    쿠폰앱)(심사받지 않은 물리적 인프라 영역 제외)]
+                    
+                    <br>[유효기간 : 2024. 08. 07. ~ 2025. 08. 06.]
+                    </span>
+                </div>
+        </div>
+</div>
+</footer>
+
+</main>
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/common.js"></script>
+<script>
+    $(function(){
+        $('.intro').click(function(){
+            $('.intro').hide();
+        });
+
+    });
+</script>
+
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+<!-- Initialize Swiper -->
+<script>
+    var swiper = new Swiper(".mySwiper", {
+    pagination: {
+        clickable: true,
+        el: ".swiper-pagination",
+    },
+    loop: true,
+    });
+
+    var swiper_2 = new Swiper(".mySwiper_2", {
+    pagination: {
+        clickable: true,
+        el: ".swiper-pagination",
+    },
+    loop: true,
+    });
+
+</script>
+
+<script>
+window.addEventListener("orientationchange", function() {
+if (window.orientation === 90 || window.orientation === -90) {
+    alert("가로모드는 지원하지 않습니다. 기기를 세로로 돌려주세요.");
+}
+});
+</script>
+</body>
+</html>
