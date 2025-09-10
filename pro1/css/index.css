@@ -1,0 +1,347 @@
+body{overflow-x: hidden;}
+/* 섹션1=================================================================== */
+
+.main .sec1{padding-top: 280px; }
+.main .sec1 .new-music>h2 a{font-size: 20px; padding: 0 10px; color: #616161; margin-left: -10px;}
+.main .sec1 .new-music>h2 a:nth-child(1){font-size: 25px; padding-right: 20px; color: #323232;}
+.main .sec1 .new-music>h2 a:nth-child(2){border-bottom: solid 2px #0096ff;}
+
+.main .sec1 .new-album {position: relative;}
+/* .main .sec1 .new-album .swiper{margin-top: 30px;} */
+/* .main .sec1 .new-album .swiper-slide >div{background-color: green;} */
+.main .sec1 .new-album .swiper-button-next{right:-50px;}
+.main .sec1 .new-album .swiper-button-prev{left:-50px;}
+
+.swiper-slide div div p{font-size: 20px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis;} /* ======================== */
+.swiper-slide div div p:nth-child(2){font-weight: bold;}
+.swiper-slide div div img{border-radius: 10px; cursor: pointer;}
+.swiper-slide div div{margin-top: 30px;}
+
+.swiper-button-next, .swiper-button-prev{color: #0096ff;}
+
+
+/* 섹션2=================================================================== */
+.main .sec2 .chart{width: 65%;}
+.main .sec2 .h-n{width: 35%;}
+
+.main .sec2{margin-top: 100px;}
+.main .sec2 .date>h2{font-size: 25px;}
+.main .sec2 .date>p{text-align: end; font-size: 16px;}
+.main .sec2 .chart .rank{border-top: solid 2px #0096ff; border-bottom: solid 2px #0096ff; margin-bottom: 10px;}
+.main .sec2 .chart .rank .flex-box{border-bottom: solid 1px #616161; justify-content: space-between; align-items: center;}
+.main .sec2 .chart .rank .flex-box:nth-child(10){border-bottom: none;}
+.main .sec2 .chart .rank .flex-box:nth-child(1)>.cont1 span:nth-child(2){padding: 0 18px; margin-left: 15px;}
+.main .sec2 .chart .rank .flex-box:nth-child(2)>.cont1 span:nth-child(2){padding: 0 15px;}
+.main .sec2 .chart .rank .flex-box:nth-child(5)>.cont1 span:nth-child(2){padding: 0 14px;}
+.main .sec2 .chart .rank .flex-box:nth-child(6)>.cont1 span:nth-child(2){padding: 0 13px;}
+.main .sec2 .chart .rank .flex-box:nth-child(7)>.cont1 span:nth-child(2){padding: 0 13px; margin-left: 14px;}
+.main .sec2 .chart .rank .flex-box:nth-child(8)>.cont1 span:nth-child(2){padding: 0 13px;}
+.main .sec2 .chart .rank .flex-box:nth-child(10)>.cont1 span:nth-child(2){margin-left: 2px;}
+.main .sec2 .chart .rank .flex-box>.cont1 *{margin: 15px 10px;}
+
+.main .sec2 .chart .rank .flex-box>.cont1  span{font-size: 20px; cursor: pointer;}
+.main .sec2 .chart .rank .flex-box>.cont1  >span:nth-child(1){font-size: 25px;}
+.main .sec2 .chart .rank .flex-box>.cont1 .rank-span{margin-left: 0;}
+.main .sec2 .chart .rank .flex-box>.cont1 .rank-span >span{font-weight: bold; text-align: center;}
+.main .sec2 .chart .rank .rank-span{display: inline-block;}
+
+.main .sec2 .chart .rank .flex-box>.cont1 img{display: inline-block; border-radius: 10px; width: 65px;
+    vertical-align: middle; cursor: pointer;}
+.main .sec2 .chart .rank .flex-box>.cont2 *{margin: 15px 10px; vertical-align: middle; cursor: pointer;}
+.main .sec2 .chart .rank .flex-box>.cont2 span{font-size: 20px;}
+
+
+
+.main .sec2 .chart .sub-bt{justify-content: space-between;}
+.main .sec2 .chart .sub-bt .rank-sub1>span{border-right: solid 1px #616161; padding: 0 10px; font-size: 20px;}
+.main .sec2 .chart .sub-bt .rank-sub1>span:nth-child(1){padding-left: 0px;}
+.main .sec2 .chart .sub-bt .rank-sub1>span:nth-child(3){border-right: none;}
+.main .sec2 .chart .sub-bt .rank-sub2>span{border-right: none; font-size: 20px;}
+.main .sec2 .chart .sub-bt .rank-sub2>span a i{font-size: 25px; vertical-align: middle; padding-left: 10px;}
+
+.m-name1{display: none;}
+.m-count1{display: none;}
+
+
+.main .sec2 .h-n{padding-left: 20px;}
+.main .sec2 .h-n>h2{font-size: 25px;}
+.main .sec2 .h-n .rank2{margin-top: 24px; border-top: solid 2px #0096ff; border-bottom: solid 2px #0096ff;}
+.main .sec2 .h-n .rank2 .flex-box{border-bottom: solid 1px #616161; align-items: center; justify-content: space-between;}
+.main .sec2 .h-n .rank2 .flex-box:nth-child(5){border-bottom: none;}
+
+.main .sec2 .h-n .rank2 .flex-box .cont3{margin: 20.5px 10px;}
+.main .sec2 .h-n .rank2 .flex-box .cont3 div{display: inline-block;}
+.main .sec2 .h-n .rank2 .flex-box .cont3 img{width: 150px; border-radius: 10px; display: inline-block;
+    vertical-align: middle; cursor: pointer;}
+.main .sec2 .h-n .rank2 .flex-box .cont3 div{vertical-align: middle;}
+.main .sec2 .h-n .rank2 .flex-box .cont3 div>p{font-size: 20px; vertical-align: middle; padding: 0 12px; cursor: pointer;}
+.main .sec2 .h-n .rank2 .flex-box .cont3 div>p:nth-child(1){font-weight: bold; padding-bottom: 10px;}
+
+.main .sec2 .h-n .rank2 .flex-box .cont4 p{font-size: 20px; color: #f43939; cursor: pointer;} 
+.main .sec2 .h-n .rank2 .flex-box .cont4 .new{color: #5092cb; cursor: pointer;}
+
+/* 섹션3=================================================================== */
+.main .sec3 h2{font-size: 25px; margin-top: 100px;}
+.main .sec3 .more{width: auto; text-align: right; padding-bottom: 10px;}
+.main .sec3 .more>span{font-size: 20px;}
+.main .sec3 .more>span a i{font-size: 25px; vertical-align: middle; padding-left: 10px;}
+
+.main .sec3 .flex-box{margin: 0 -15px;}
+.main .sec3 .flex-box>div{width: 25%; padding: 0 15px;}
+.main .sec3 .flex-box .img-box{position: relative; /* background-color: green; */}
+.main .sec3 .flex-box img{border-top-left-radius: 10px; border-top-right-radius: 10px; cursor: pointer;}
+.main .sec3 .flex-box p{font-size: 18px; cursor: pointer;}
+.main .sec3 .flex-box>div>p:nth-child(2){font-size: 20px; font-weight: bold; padding-top: 10px;}
+
+.main .sec3 .flex-box .background{color: #ffffff; font-size: 16px; 
+    background-color:rgba(0,0,0,0.2); position: absolute; bottom: 0px; right: 4px; z-index: 1;}
+
+.main .m-mv{display: none;}
+
+/* 섹션4=================================================================== */
+.main .sec4 h2{font-size: 25px; margin-top: 100px;}
+.main .sec4 .more{width: auto; text-align: right; padding-bottom: 10px;}
+.main .sec4 .more>span{font-size: 20px;}
+.main .sec4 .more>span a i{font-size: 25px; vertical-align: middle; padding-left: 10px;}
+
+.main .sec4 .flex-box{margin: 0 -15px;}
+.main .sec4 .flex-box>div{width: 25%; padding: 0 15px;}
+.main .sec4 .flex-box img{border-top-left-radius: 10px; border-top-right-radius: 10px; cursor: pointer;}
+.main .sec4 .flex-box>div>p{font-size: 18px; cursor: pointer;}
+.main .sec4 .flex-box>div>p>span{color: #0096ff;}
+.main .sec4 .flex-box>div>p:nth-child(2){font-size: 20px; font-weight: bold; margin-top: 10px;}
+.main .sec4 .flex-box>div>p:nth-child(4){color: #616161; margin-bottom: 50px;}
+.main .sec4 .flex-box>div>.long{white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+
+.m-reco{display: none;}
+
+
+
+
+
+
+@media(max-width: 997px){ /* 테블릿====================================================================== */
+
+/* 헤더====================================================================== */
+
+
+/* 스와이프===================================================================================================================== */
+.main .sec1{padding-top: 100px; /* background-color: pink; */ }
+.main .sec1 .new-music>h2 a{font-size: 20px; padding: 0 15px; color: #616161;}
+.main .sec1 .new-music>h2 a:nth-child(1){font-size: 25px; padding-right: 20px; color: #323232;}
+.main .sec1 .new-music>h2 a:nth-child(2){border-bottom: solid 2px #0096ff;}
+
+.main .sec1 .new-album {position: relative;}
+/* .main .sec1 .new-album .swiper{margin-top: 30px;} */
+/* .main .sec1 .new-album .swiper-slide >div{background-color: green;} */
+.main .sec1 .new-album .swiper-button-next{right:-50px;}
+.main .sec1 .new-album .swiper-button-prev{left:-50px;}
+
+.swiper-slide div div p{font-size: 20px;}
+.swiper-slide div div p:nth-child(2){font-weight: bold;}
+.swiper-slide div div img{border-radius: 10px;}
+.swiper-slide div div{margin-top: 30px;}
+
+.main .sec2 .chart{width: 100%;}
+.main .sec2 .h-n{width: 100%;}
+
+.main .sec2{margin-top: 100px;}
+.main .sec2 .date>h2{font-size: 25px; margin-bottom: -15px;}
+.main .sec2 .chart .rank .flex-box{border-bottom: solid 1px #616161; justify-content: space-between; align-items: center;}
+.main .sec2 .chart .rank .flex-box:nth-child(5){border-bottom: none;}
+.main .sec2 .chart .rank .flex-box:nth-child(6), .main .sec2 .chart .rank .flex-box:nth-child(7), .main .sec2 .chart .rank .flex-box:nth-child(8),
+.main .sec2 .chart .rank .flex-box:nth-child(9), .main .sec2 .chart .rank .flex-box:nth-child(10){display: none;}
+
+.main .sec2 .chart .rank .flex-box>.cont1  span{font-size: 20px;}
+.main .sec2 .chart .rank .flex-box>.cont1  >span:nth-child(1){font-size: 25px;}
+.main .sec2 .chart .rank .flex-box>.cont1 .rank-span{margin: 2px; vertical-align: middle;}
+.main .sec2 .chart .rank .flex-box>.cont1 img{display: inline-block; border-radius: 10px; width: 65px; vertical-align: middle;}
+
+.main .sec2 .chart .rank .flex-box>.cont2 *{margin: 15px 0px; vertical-align: middle;}
+.main .sec2 .chart .rank .flex-box>.cont2 span{font-size: 18px;}
+
+
+
+.main .sec2 .chart .sub-bt .rank-sub1>span{font-size: 20px;}
+.main .sec2 .chart .sub-bt .rank-sub1>span:nth-child(1){padding-left: 0px;}
+.main .sec2 .chart .sub-bt .rank-sub1>span:nth-child(3){border-right: none;}
+.main .sec2 .chart .sub-bt .rank-sub2>span{border-right: none; font-size: 20px;}
+.main .sec2 .chart .sub-bt .rank-sub2>span a i{font-size: 25px; vertical-align: middle; padding-left: 10px;}
+
+
+
+.main .sec2 .h-n{padding-left: 0; margin-top: 50px;}
+.main .sec2 .h-n>h2{font-size: 26px; margin-bottom: -15px;}
+.main .sec2 .h-n .rank2 .flex-box .cont3{margin: 15px 10px;}
+.main .sec2 .h-n .rank2 .flex-box .cont3 div>p:nth-child(1){font-weight: bold; padding-bottom: 10px;}
+.main .sec2 .h-n .rank2 .flex-box .cont3 div>p:nth-child(2){font-size: 18px;}
+.main .sec2 .h-n .rank2 .flex-box .cont3 div>p>br{display: none;}
+.main .sec2 .h-n .rank2 .flex-box .cont3 img{width: 100px;}
+
+/* 섹션3=================================================================== */
+.main .pc-mv{display: none;}
+.main .m-mv{display: inline;}
+.main .m-mv-swiper {position: relative;}
+.main .m-mv-swiper .swiper-button-next{right:-50px;}
+.main .m-mv-swiper .swiper-button-prev{left:-50px;}
+
+.main .m-mv h2{font-size: 26px; margin-top: 100px; margin-bottom: -20px;}
+.main .m-mv .more{width: auto; text-align: right; margin-bottom: -20px}
+.main .m-mv .more>span{font-size: 20px;;}
+.main .m-mv .more>span a i{font-size: 25px; vertical-align: middle; padding-left: 10px;}
+
+
+.main .m-mv .m-mv-swiper .swiper-slide .img-box{position: relative; /* background-color: green; */}
+.main .m-mv .m-mv-swiper .swiper-slide img{border-top-left-radius: 10px; border-top-right-radius: 10px;
+border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;}
+.main .m-mv .m-mv-swiper .swiper-slide p{font-size: 18px;}
+.main .m-mv .m-mv-swiper .swiper-slide div>p:nth-child(2){font-size: 20px; font-weight: bold; padding-top: 10px;}
+
+.main .m-mv .swiper-slide .background{color: #ffffff; font-size: 16px; 
+    background-color:rgba(0,0,0,0.2); position: absolute; bottom: 0px; right: 4px; z-index: 1;}
+
+/* 섹션4=================================================================== */
+.pc-reco{display: none;}
+.m-reco{display: inline;}
+
+.main .m-reco-swiper {position: relative;}
+.main .m-reco-swiper .swiper-button-next{right:-50px;}
+.main .m-reco-swiper .swiper-button-prev{left:-50px;}
+
+.main .m-reco h2{font-size: 26px; margin-top: 50px; padding-bottom: 0px; margin-bottom: -20px;}
+.main .m-reco .more{width: auto; text-align: right; padding-bottom: 0px; margin-bottom: -20px;}
+.main .m-reco .more>span{font-size: 20px;}
+.main .m-reco .more>span a i{font-size: 25px; vertical-align: middle; padding-left: 10px;}
+
+
+.main .m-reco .m-reco-swiper .swiper-slide img{border-top-left-radius: 10px; border-top-right-radius: 10px;
+border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;}
+.main .m-reco .m-reco-swiper .swiper-slide>div>div>p{font-size: 18px;}
+.main .m-reco .m-reco-swiper .swiper-slide>div>div>p>span{color: #0096ff;}
+.main .m-reco .m-reco-swiper .swiper-slide>div>div>p:nth-child(2){font-size: 20px; font-weight: bold; margin-top: 10px;}
+.main .m-reco .m-reco-swiper .swiper-slide>div>div>p:nth-child(4){color: #616161; margin-bottom: 0px;}
+.main .m-reco .m-reco-swiper .swiper-slide>div>div>.long{white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+
+
+
+}
+@media(max-width: 767px){ /* 핸드폰====================================================================== */
+
+
+
+/* 스와이프===================================================================================================================== */
+.main{width: 90%;}
+
+.main .sec1{padding-top: 60px; /* background-color: pink; */ }
+.main .sec1 .new-music>h2 a{font-size: 16px; padding: 0 15px; color: #616161;}
+.main .sec1 .new-music>h2 a:nth-child(1){font-size: 20px; padding-right: 20px; color: #323232;}
+.main .sec1 .new-music>h2 a:nth-child(2){border-bottom: solid 2px #0096ff;}
+
+.main .sec1 .new-album {position: relative;}
+/* .main .sec1 .new-album .swiper{margin-top: 30px;} */
+/* .main .sec1 .new-album .swiper-slide >div{background-color: green;} */
+.main .sec1 .new-album .swiper-button-next{right:-50px;}
+.main .sec1 .new-album .swiper-button-prev{left:-50px;}
+
+.swiper-slide div div p{font-size: 16px;}
+.swiper-slide div div p:nth-child(2){font-weight: bold;}
+.swiper-slide div div img{border-radius: 10px;}
+.swiper-slide div div{margin-top: 30px;}
+.swiper-button-next, .swiper-button-prev{display: none;}
+
+.m-name1{display: block;}
+.m-name2{display: none;}
+.m-count1{display: inline;}
+.m-count2{display: none;}
+
+.main .sec2{margin-top: 50px;}
+.main .sec2 .date>h2{font-size: 20px; margin-bottom: -15px;}
+.main .sec2 .chart .rank .flex-box:nth-child(6), .main .sec2 .chart .rank .flex-box:nth-child(7), .main .sec2 .chart .rank .flex-box:nth-child(8),
+.main .sec2 .chart .rank .flex-box:nth-child(9), .main .sec2 .chart .rank .flex-box:nth-child(10){display: none;}
+.main .sec2 .chart .rank .flex-box>.cont1 , .rank-span{vertical-align: middle; }
+
+.main .sec2 .chart .rank .flex-box>.cont1> span:nth-child(1){font-size: 20px; vertical-align: middle; font-weight: normal;}
+.main .sec2 .chart .rank .flex-box>.cont1> span:nth-child(2){font-size: 15px;}
+.main .sec2 .chart .rank .flex-box>.cont1 img{display: inline-block; border-radius: 10px; width: 55px; vertical-align: middle;}
+.main .sec2 .chart .rank .flex-box>.cont1 *{margin: 10px 0px;}
+.main .sec2 .chart .rank .flex-box>.cont1 .rank-span >span{font-weight: bold;font-size: 16px;}
+.main .sec2 .chart .rank .flex-box>.cont1 .rank-span span>span{margin-bottom: 0;margin-top: 0; font-size: 12px; font-weight: normal; text-align: left;}
+
+.main .sec2 .chart .rank .flex-box>.cont2 {margin: 0px 0px; vertical-align: middle;}
+
+
+.main .sec2 .chart .rank .flex-box:nth-child(1)>.cont1 span:nth-child(1){padding-right: 0px;}
+.main .sec2 .chart .rank .flex-box:nth-child(2)>.cont1 span:nth-child(1){padding-right: 0px;}
+.main .sec2 .chart .rank .flex-box:nth-child(3)>.cont1 span:nth-child(1){padding-right: 0px;}
+.main .sec2 .chart .rank .flex-box:nth-child(4)>.cont1 span:nth-child(1){padding-right: 0px;}
+
+.main .sec2 .chart .rank .flex-box:nth-child(1)>.cont1 span:nth-child(2){padding: 0 8px; margin-left: 7px;}
+.main .sec2 .chart .rank .flex-box:nth-child(2)>.cont1 span:nth-child(2){padding: 0 7px;}
+.main .sec2 .chart .rank .flex-box:nth-child(3)>.cont1 span:nth-child(2){padding: 0 3px;}
+.main .sec2 .chart .rank .flex-box:nth-child(4)>.cont1 span:nth-child(2){padding: 0 3px;}
+.main .sec2 .chart .rank .flex-box:nth-child(5)>.cont1 span:nth-child(2){padding: 0 5px; margin-left: 1px;}
+
+
+.main .sec2 .chart .sub-bt .rank-sub1{display: none;}
+.main .sec2 .chart .sub-bt .rank-sub2{width: 100%; text-align: right;}
+.main .sec2 .chart .sub-bt .rank-sub2>span{border-right: none; font-size: 14px;}
+.main .sec2 .chart .sub-bt .rank-sub2>span a i{font-size: 18px; vertical-align: middle; padding-left: 5px;}
+
+
+.main .sec2 .h-n{margin-top: 0px;}
+.main .sec2 .h-n>h2{font-size: 20px;}
+.main .sec2 .h-n .rank2 .flex-box .cont3{margin: 8px 10px;}
+.main .sec2 .h-n .rank2 .flex-box .cont3 div>p:nth-child(1){font-size: 16px; padding-bottom: 5px;}
+.main .sec2 .h-n .rank2 .flex-box .cont3 div>p:nth-child(2){font-size: 12px;}
+.main .sec2 .h-n .rank2 .flex-box .cont3 div>p>br{display: inline;}
+.main .sec2 .h-n .rank2 .flex-box .cont3 img{width: 60px;}
+
+.main .sec2 .h-n .rank2 .flex-box .cont4 p{font-size: 12px;}
+
+/* 섹션3=================================================================== */
+.main .pc-mv{display: none;}
+.main .m-mv-swiper {position: relative;}
+.main .m-mv-swiper .swiper-button-next{right:-50px;}
+.main .m-mv-swiper .swiper-button-prev{left:-50px;}
+
+.main .m-mv h2{font-size: 20px; margin-top: 50px; margin-bottom: -20px;}
+.main .m-mv .more{width: auto; text-align: right; margin-bottom: -20px}
+.main .m-mv .more>span{font-size: 14px;;}
+.main .m-mv .more>span a i{font-size: 18px; vertical-align: middle; padding-left: 5px;}
+
+
+.main .m-mv .m-mv-swiper .swiper-slide .img-box{position: relative; /* background-color: green; */}
+.main .m-mv .m-mv-swiper .swiper-slide img{border-top-left-radius: 10px; border-top-right-radius: 10px;
+border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;}
+.main .m-mv .m-mv-swiper .swiper-slide p{font-size: 14px;}
+.main .m-mv .m-mv-swiper .swiper-slide div>p:nth-child(2){font-size: 16px; font-weight: bold; padding-top: 5px;}
+
+.main .m-mv .swiper-slide .background{color: #ffffff; font-size: 12px; 
+    background-color:rgba(0,0,0,0.2); position: absolute; bottom: 0px; right: 4px; z-index: 1;}
+
+
+/* 섹션4=================================================================== */
+
+.main .m-reco h2{font-size: 20px; margin-top: 25px; margin-bottom: -20px;}
+.main .m-reco .more{width: auto; text-align: right;  margin-bottom: -20px;}
+.main .m-reco .more>span{font-size: 14px;}
+.main .m-reco .more>span a i{font-size: 18px; vertical-align: middle; padding-left: 5px;}
+
+
+.main .m-reco .m-reco-swiper .swiper-slide img{border-top-left-radius: 10px; border-top-right-radius: 10px;
+border-bottom-left-radius: 0px; border-bottom-right-radius: 0px;}
+.main .m-reco .m-reco-swiper .swiper-slide>div>div>p{font-size: 14px;}
+.main .m-reco .m-reco-swiper .swiper-slide>div>div>p>span{color: #0096ff;}
+.main .m-reco .m-reco-swiper .swiper-slide>div>div>p:nth-child(2){font-size: 16px; font-weight: bold; margin-top: 5px;}
+.main .m-reco .m-reco-swiper .swiper-slide>div>div>p:nth-child(4){color: #616161; margin-bottom: 0px;}
+.main .m-reco .m-reco-swiper .swiper-slide>div>div>.long{white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+
+
+
+
+}
+@media(max-width: 400px){
+.main .sec2 .chart .rank .flex-box>.cont1 img{width: 40px;}
+
+
+}

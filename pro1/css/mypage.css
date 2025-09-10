@@ -1,0 +1,335 @@
+body{overflow-x: hidden;}
+/* 섹션1======================================================================================== */
+.main .sec1>h2{padding-top: 280px; font-size: 25px;}
+.main .sec1 .my-box{margin-top: 30px; border: solid 1px #0096ff; height: 330px; border-radius: 10px; overflow: hidden;}
+
+.main .sec1 .my-box-img{height: 50%; overflow: hidden; cursor: pointer;}
+
+.main .sec1 .my-box .flex-box{height: 50%;}
+.main .sec1 .my-box .flex-box{background-color: #ffffff; justify-content: space-between;}
+
+.main .sec1 .my-box .flex-box>div:nth-child(1){width: 50%; padding-left: 13%; position: relative;/*  background-color: blueviolet; */}
+.main .sec1 .my-box .flex-box>div:nth-child(1)>p{font-size: 20px; font-weight: bold; padding-top: 10px; cursor: pointer;}
+.main .sec1 .my-box .flex-box>div:nth-child(1)>p>span{display: block; font-size: 18px; font-weight: normal; padding-top: 5px;}
+.main .sec1 .my-box .flex-box img{position: absolute; left: 20px; top: 0px; width: 20%; transform: translateY(-30%);
+border-radius: 10px; cursor: pointer;}
+.main .sec1 .my-box .flex-box>div:nth-child(1)>.sub-box{position: absolute; left: 20px; bottom: 5px;}
+.main .sec1 .my-box .flex-box>div:nth-child(1)>.sub-box a{border-right: solid 1px #616161; padding: 0 5px; font-size: 18px;}
+.main .sec1 .my-box .flex-box>div:nth-child(1)>.sub-box a:nth-child(5)
+{border-right: none; font-size: 16px;}
+
+.main .sec1 .my-box .flex-box>div:nth-child(3){padding-right: 8%; vertical-align: middle;}
+.main .sec1 .my-box .flex-box>div:nth-child(3)>a>p{font-size: 18px; font-weight: bold; padding-top: 10px;
+    color: #616161; text-align: right;}
+.main .sec1 .my-box .flex-box>div:nth-child(3)>a>p>span>svg{vertical-align: middle;}
+.main .sec1 .my-box .flex-box>div:nth-child(3)>a>p>span{display: block; font-weight: normal;}
+
+
+
+.main .sec1 .m-my-box-img{display: none;}
+.main .sec1 .my-box .m-enter{display: none;}
+.main .sec1 .my-box .m-music{display: none;}
+.main .sec1 .my-box .m-sub-box{display: none;}
+
+/* 섹션2======================================================================================== */
+.main .sec2>h2{padding-top: 50px; font-size: 25px;}
+.main .sec2 .more{text-align: right; width: auto;}
+.main .sec2 .more>span{font-size: 20px;}
+.main .sec2 .more>span a i{font-size: 25px; vertical-align: middle; padding-left: 10px;}
+
+.main .sec2 .flex-box{margin: 0 -20px; margin-top: 10px;}
+.main .sec2 .flex-box>div{width: 25%; padding: 0 20px; border-radius: 10px;}
+.main .sec2 .flex-box>div img{border-radius: 10px; cursor: pointer;}
+.main .sec2 .flex-box>div p{font-size: 20px; font-weight: bold; margin-top: 10px; cursor: pointer;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.main .sec2 .flex-box>div p>span{display: block; font-weight: normal; color: #616161;}
+
+/* 섹션3======================================================================================== */
+.main .sec3 h2{padding-top: 50px; font-size: 25px;}
+.main .sec3 .month{text-align: right; width: auto;}
+.main .sec3 .month>span{font-size: 18px;}
+.main .sec3 .rank{border-top: solid 2px #0096ff; border-bottom: solid 2px #0096ff;}
+.main .sec3 .rank .flex-box{border-bottom: solid 1px #616161; justify-content: space-between; align-items: center;
+padding: 10px;}
+.main .sec3 .rank .flex-box:nth-child(10){border-bottom: none}
+
+.main .sec3 .rank .flex-box .cont1{vertical-align: middle;}
+.main .sec3 .rank .flex-box:nth-child(1)>.cont1>span:nth-child(1){margin-right: 25px;}
+.main .sec3 .rank .flex-box:nth-child(7)>.cont1>span:nth-child(1){margin-right: 23px;}
+.main .sec3 .rank .flex-box:nth-child(10)>.cont1>span:nth-child(1){margin-right: 12px;}
+
+.main .sec3 .rank .flex-box .cont1 span{font-size: 20px; margin: 0 10px; cursor: pointer;}
+.main .sec3 .rank .flex-box .cont1>span:nth-child(1){font-size: 26px; margin-right: 20px;}
+.main .sec3 .rank .flex-box .cont1>div:nth-child(3){font-weight: bold;}
+.main .sec3 .rank .flex-box .cont1 img{display: inline-block; border-radius: 10px; vertical-align: middle;
+    width: 65px; height: 65px; margin-right: 20px; cursor: pointer;}
+.main .sec3 .rank .flex-box>.cont1 .rank-span{display: inline-block;}
+
+
+.main .sec3 .rank .flex-box>.cont2>span{font-size: 20px; margin-right: 50px; cursor: pointer;}
+.main .sec3 .rank .flex-box>.cont2>svg{vertical-align: middle; margin: 0 10px; cursor: pointer}
+
+.main .sec3 .rank .flex-box>.cont1 .rank-span span>.m-name1{display: none;}
+
+/* 섹션4======================================================================================== */
+.main .sec4>h2{padding-top: 50px; font-size: 25px;}
+.main .sec4 .more{text-align: right; width: auto;}
+.main .sec4 .more>span{font-size: 20px;}
+.main .sec4 .more>span a i{font-size: 25px; vertical-align: middle; padding-left: 10px;}
+
+.main .sec4 .flex-box{margin: 0 -20px; margin-top: 10px;}
+.main .sec4 .flex-box>.album{width: 25%; padding: 0 20px; border-radius: 10px;}
+.main .sec4 .flex-box>.album img{border-radius: 10px; cursor: pointer;}
+.main .sec4 .flex-box>.album p{font-size: 20px; margin-top: 10px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: bold; cursor: pointer;}
+.main .sec4 .flex-box>.album p:nth-child(3){color: #616161; font-weight: normal; margin-top: 0;}
+.main .sec4 .flex-box>.album p>span{color: #0096ff;}
+
+
+
+@media(max-width: 997px){
+/* 섹션1======================================================================================== */
+.main .sec1>h2{padding-top: 100px; font-size: 26px;}
+.main .sec1 .my-box{margin-top: 10px; height: 300px;}
+
+.main .sec1 .my-box-img{height: 40%; overflow: hidden;}
+
+.main .sec1 .my-box .flex-box{height: 55%;}
+
+.main .sec1 .my-box .flex-box>div:nth-child(1){width: 50%; padding-left: 22%; position: relative;/*  background-color: blueviolet; */}
+.main .sec1 .my-box .flex-box>div:nth-child(1)>p{font-size: 20px; padding-top: 5px;}
+.main .sec1 .my-box .flex-box>div:nth-child(1)>p>span{font-size: 18px; padding-top: 0px;}
+.main .sec1 .my-box .flex-box img{position: absolute; left: 20px; top: 0px; width: 35%; transform: translateY(-25%);}
+.main .sec1 .my-box .flex-box>div:nth-child(1)>.sub-box{position: absolute; left: 20px; bottom: 5px;}
+.main .sec1 .my-box .flex-box>div:nth-child(1)>.sub-box a{border-right: solid 1px #616161; padding: 0 5px; font-size: 18px;}
+.main .sec1 .my-box .flex-box>div:nth-child(1)>.sub-box a:nth-child(5)
+{border-right: none; font-size: 16px;}
+
+.main .sec1 .my-box .flex-box>div:nth-child(3){padding-right: 5%; vertical-align: middle;}
+.main .sec1 .my-box .flex-box>div:nth-child(3)>a>p{font-size: 18px; font-weight: bold; padding-top: 5px;
+    color: #616161; text-align: right;}
+
+.main .sec1 .my-box .m-enter{display: inline;}
+
+/* 섹션2======================================================================================== */
+.main .sec2>h2{padding-top: 50px; font-size: 26px; margin-bottom: -20px;}
+.main .sec2 .more>span{border-right: none; font-size: 20px; text-align: right; width: auto;}
+.main .sec2 .more>span a i{font-size: 25px; vertical-align: middle; padding-left: 10px;}
+
+.main .sec2 .flex-box{margin: 0 -20px; margin-top: 10px;}
+.main .sec2 .flex-box>div{width: 50%; padding: 0 20px; border-radius: 10px;}
+.main .sec2 .flex-box>div:nth-child(3),.main .sec2 .flex-box>div:nth-child(4){margin-top: 20px;}
+.main .sec2 .flex-box>div img{border-radius: 10px; cursor: pointer;}
+.main .sec2 .flex-box>div p{font-size: 20px; font-weight: bold; margin-top: 10px; cursor: pointer;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.main .sec2 .flex-box>div p>span{display: block; font-weight: normal; color: #616161;}
+
+/* 섹션3======================================================================================== */
+.main .sec3 h2{padding-top: 50px; font-size: 25px; margin-bottom: -10px;}
+.main .sec3 .month{text-align: right; width: auto;}
+.main .sec3 .month>span{font-size: 18px;}
+.main .sec3 .rank{border-top: solid 2px #0096ff;}
+.main .sec3 .rank .flex-box{border-bottom: solid 1px #616161; justify-content: space-between; align-items: center;
+padding: 10px;}
+.main .sec3 .rank .flex-box:nth-child(5){border-bottom: none;}
+
+.main .sec3 .rank .flex-box:nth-child(6),
+.main .sec3 .rank .flex-box:nth-child(7),
+.main .sec3 .rank .flex-box:nth-child(8),
+.main .sec3 .rank .flex-box:nth-child(9),
+.main .sec3 .rank .flex-box:nth-child(10){display: none;}
+
+
+.main .sec3 .rank .flex-box .cont1{vertical-align: middle;}
+.main .sec3 .rank .flex-box .cont1 span{font-size: 20px; margin: 0 10px;}
+.main .sec3 .rank .flex-box:nth-child(1)>.cont1>span:nth-child(1){margin-right: 25px;}
+.main .sec3 .rank .flex-box:nth-child(7)>.cont1>span:nth-child(1){margin-right: 23px;}
+.main .sec3 .rank .flex-box:nth-child(10)>.cont1>span:nth-child(1){margin-right: 12px;}
+
+.main .sec3 .rank .flex-box .cont1>span:nth-child(1){font-size: 26px; margin-right: 20px;}
+.main .sec3 .rank .flex-box .cont1>div:nth-child(3){font-weight: bold;}
+.main .sec3 .rank .flex-box .cont1 img{display: inline-block; border-radius: 10px; vertical-align: middle;
+    width: 65px; height: 65px; margin-right: 20px;}
+.main .sec3 .rank .flex-box>.cont1 .rank-span{display: inline-block;}
+
+
+.main .sec3 .rank .flex-box>.cont2>span{font-size: 18px; margin-right: 0px;}
+.main .sec3 .rank .flex-box>.cont2>svg{vertical-align: middle; margin: 0 10px; cursor: pointer}
+
+.main .sec3 .rank .flex-box>.cont1 .rank-span span>.m-name1{display: none;}
+
+/* 섹션4======================================================================================== */
+.main .sec4>h2{padding-top: 50px; font-size: 26px; margin-bottom: -20px;}
+.main .sec4 .more{text-align: right; width: auto;}
+.main .sec4 .more>span{font-size: 20px;}
+.main .sec4 .more>span a i{font-size: 25px; vertical-align: middle; padding-left: 10px;}
+
+.main .sec4 .flex-box{margin: 0 -20px; margin-top: 10px;}
+.main .sec4 .flex-box>.album{width: 50%; padding: 0 20px; border-radius: 10px;}
+.main .sec4 .flex-box>.album:nth-child(3),.main .sec4 .flex-box>.album:nth-child(4)
+{margin-top: 20px;}
+.main .sec4 .flex-box>.album img{border-radius: 10px;}
+.main .sec4 .flex-box>.album p{font-size: 20px; margin-top: 10px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: bold;}
+.main .sec4 .flex-box>.album p:nth-child(3){color: #616161; font-weight: normal; margin-top: 0;}
+.main .sec4 .flex-box>.album p>span{color: #0096ff;}
+
+
+}
+
+@media(max-width: 767px){
+/* 섹션1======================================================================================== */
+.main .sec1>h2{padding-top: 65px; font-size: 20px;}
+.main .sec1 .my-box{margin-top: 10px; height: 300px;}
+
+.main .sec1 .m-my-box-img{height: 40%; overflow: hidden;}
+
+.main .sec1 .my-box .flex-box{height: 55%; position: relative;}
+
+.main .sec1 .my-box .flex-box>div:nth-child(1){width: 100%; padding-left: 38%; position: relative;/*  background-color: blueviolet; */}
+.main .sec1 .my-box .flex-box>div:nth-child(1)>p{font-size: 16px; padding-top: 5px;}
+.main .sec1 .my-box .flex-box>div:nth-child(1)>p>span{font-size: 14px; padding-top: 0px;}
+.main .sec1 .my-box .flex-box img{position: absolute; left: 10px; top: 0px; width: 30%; transform: translateY(-25%);}
+
+.main .sec1 .my-box .flex-box .m-sub-box{position: absolute; left: 10px; bottom: 15px;}
+.main .sec1 .my-box .flex-box .m-sub-box>a{border-right: solid 1px #616161; padding: 0 5px; font-size: 14px;}
+.main .sec1 .my-box .flex-box .m-sub-box>a:nth-child(2){border-right: none;}
+.main .sec1 .my-box .flex-box .m-sub-box>a:nth-child(5)
+{border-right: none; font-size: 14px;}
+
+.main .sec1 .my-box .flex-box .m-music{padding-right: 5%; vertical-align: middle;}
+.main .sec1 .my-box .flex-box .m-music>a>p{font-size: 14px; font-weight: bold; padding-top: 5px;
+    color: #616161; text-align: left;}
+.main .sec1 .my-box .flex-box .m-music>a>p>span>svg{width: 24px; height: 24px; vertical-align: middle;}
+.main .sec1 .my-box .flex-box .m-music>a>p>span{display: block;}
+
+.main .sec1 .m-my-box-img{display: inline;}
+.main .sec1 .my-box-img{display: none;}
+.main .sec1 .my-box .m-music{display: inline-block;}
+.main .sec1 .my-box .m-sub-box{display: inline;}
+.main .sec1 .my-box .music{display: none;}
+.main .sec1 .my-box .sub-box{display: none;}
+
+/* 섹션2======================================================================================== */
+.main .sec2>h2{padding-top: 50px; font-size: 20px; margin-bottom: -20px;}
+.main .sec2 .more>span{border-right: none; font-size: 14px; text-align: right; width: auto;}
+.main .sec2 .more>span a i{font-size: 18px; vertical-align: middle; padding-left: 10px;}
+
+.main .sec2 .flex-box{margin: 0 -10px; margin-top: 10px;}
+.main .sec2 .flex-box>div{width: 50%; padding: 0 10px; border-radius: 10px;}
+
+.main .sec2 .flex-box>div p{font-size: 16px;}
+
+/* 섹션3======================================================================================== */
+.main .sec3 h2{padding-top: 50px; font-size: 20px; margin-bottom: -10px;}
+.main .sec3 .month{text-align: right; width: auto;}
+.main .sec3 .month>span{font-size: 15px;}
+.main .sec3 .rank{border-top: solid 2px #0096ff;}
+.main .sec3 .rank .flex-box{border-bottom: solid 1px #616161; justify-content: space-between; align-items: center;
+padding: 10px;}
+.main .sec3 .rank .flex-box .cont1{vertical-align: middle;}
+.main .sec3 .rank .flex-box .cont1 span{font-size: 15px; margin: 0 3px;}
+.main .sec3 .rank .flex-box:nth-child(1)>.cont1>span:nth-child(1){margin-right: 10px;}
+.main .sec3 .rank .flex-box:nth-child(7)>.cont1>span:nth-child(1){margin-right: 8px;}
+.main .sec3 .rank .flex-box:nth-child(10)>.cont1>span:nth-child(1){margin-right: 0px;}
+
+.main .sec3 .rank .flex-box .cont1>span:nth-child(1){font-size: 20px; margin-right: 5px;}
+.main .sec3 .rank .flex-box .cont1>div:nth-child(3){font-weight: bold; vertical-align: middle;}
+.main .sec3 .rank .flex-box .cont1 img{display: inline-block; border-radius: 10px; vertical-align: middle;
+    width: 45px; height: 45px; margin-right: 0px;}
+.main .sec3 .rank .flex-box>.cont1>.rank-span>span{display: block;}
+
+
+.main .sec3 .rank .flex-box>.cont2>span{font-size: 16px; margin-right: 0px;}
+.main .sec3 .rank .flex-box>.cont2>svg{vertical-align: middle; margin: 0 0px; cursor: pointer;
+    width: 25px; height: 25px;}
+.main .sec3 .rank .flex-box>.cont2>svg:nth-child(2){width: 35px; height: 35px;}
+
+.main .sec3 .rank .flex-box>.cont1 .rank-span span>.m-name1{display: block; font-weight: normal;}
+.main .sec3 .rank .flex-box>.cont2>.m-name2{display: none;}
+
+/* 섹션4======================================================================================== */
+.main .sec4>h2{padding-top: 50px; font-size: 20px; margin-bottom: -20px;}
+.main .sec4 .more{text-align: right; width: auto;}
+.main .sec4 .more>span{font-size: 14px;}
+.main .sec4 .more>span a i{font-size: 18px; vertical-align: middle; padding-left: 10px;}
+
+.main .sec4 .flex-box{margin: 0 -10px; margin-top: 10px;}
+.main .sec4 .flex-box>.album{width: 50%; padding: 0 10px; border-radius: 10px;}
+.main .sec4 .flex-box>.album:nth-child(3),.main .sec4 .flex-box>.album:nth-child(4)
+{margin-top: 20px;}
+.main .sec4 .flex-box>.album img{border-radius: 10px;}
+.main .sec4 .flex-box>.album p{font-size: 16px; margin-top: 10px;
+    white-space: nowrap; overflow: hidden; text-overflow: ellipsis; font-weight: bold;}
+.main .sec4 .flex-box>.album p:nth-child(3){color: #616161; font-weight: normal; margin-top: 0;}
+.main .sec4 .flex-box>.album p>span{color: #0096ff;}
+
+
+}
+
+@media(max-width: 400px){
+
+.main .sec1 .my-box{margin-top: 10px; height: 330px;}
+
+.main .sec1 .my-box .flex-box .m-sub-box{position: absolute; left: 10px; bottom: -10px;}
+
+.main .sec1 .my-box .flex-box .m-music>a>p{font-size: 13px; font-weight: bold; padding-top: 5px;
+    color: #616161; text-align: left;}
+
+
+
+
+
+
+
+}
+
+@media(max-width: 375px){
+
+    .main .sec1 .my-box{margin-top: 10px; height: 290px;}
+.main .sec1 .my-box .flex-box>div:nth-child(1){width: 100%; padding-left: 31%; position: relative;/*  background-color: blueviolet; */}
+.main .sec1 .my-box .flex-box>div:nth-child(1)>p{font-size: 16px; padding-top: 5px;}
+.main .sec1 .my-box .flex-box>div:nth-child(1)>p>span{font-size: 14px; padding-top: 0px;}
+.main .sec1 .my-box .flex-box img{position: absolute; left: 10px; top: 0px; width: 25%; transform: translateY(-25%);}
+
+.main .sec1 .my-box .flex-box .m-sub-box{position: absolute; left: 10px; bottom: 0px;}
+.main .sec1 .my-box .flex-box .m-sub-box>a{border-right: solid 1px #616161; padding: 0 5px; font-size: 14px;}
+.main .sec1 .my-box .flex-box .m-sub-box>a:nth-child(2){border-right: none;}
+.main .sec1 .my-box .flex-box .m-sub-box>a:nth-child(5)
+{border-right: none; font-size: 14px;}
+
+.main .sec1 .my-box .flex-box .m-music{padding-right: 5%; vertical-align: middle;}
+.main .sec1 .my-box .flex-box .m-music>a>p{font-size: 12px; font-weight: bold; padding-top: 5px;
+    color: #616161; text-align: left;}
+.main .sec1 .my-box .flex-box .m-music>a>p>span>svg{width: 24px; height: 24px; vertical-align: middle;}
+.main .sec1 .my-box .flex-box .m-music>a>p>span{display: block;}
+
+/* 섹션3======================================================================================== */
+.main .sec3 h2{padding-top: 50px; font-size: 20px; margin-bottom: -10px;}
+.main .sec3 .month{text-align: right; width: auto;}
+.main .sec3 .month>span{font-size: 15px;}
+.main .sec3 .rank{border-top: solid 2px #0096ff;}
+.main .sec3 .rank .flex-box{border-bottom: solid 1px #616161; justify-content: space-between; align-items: center;
+padding: 10px;}
+.main .sec3 .rank .flex-box .cont1{vertical-align: middle;}
+.main .sec3 .rank .flex-box .cont1 span{font-size: 14px; margin: 0 1px;}
+.main .sec3 .rank .flex-box:nth-child(1)>.cont1>span:nth-child(1){margin-right: 10px;}
+.main .sec3 .rank .flex-box:nth-child(7)>.cont1>span:nth-child(1){margin-right: 8px;}
+.main .sec3 .rank .flex-box:nth-child(10)>.cont1>span:nth-child(1){margin-right: 0px;}
+
+.main .sec3 .rank .flex-box .cont1>span:nth-child(1){font-size: 20px; margin-right: 5px;}
+.main .sec3 .rank .flex-box .cont1>div:nth-child(3){font-weight: bold; vertical-align: middle;}
+.main .sec3 .rank .flex-box .cont1 img{display: inline-block; border-radius: 10px; vertical-align: middle;
+    width: 45px; height: 45px; margin-right: 0px;}
+.main .sec3 .rank .flex-box>.cont1>.rank-span>span{display: block;}
+
+
+.main .sec3 .rank .flex-box>.cont2>span{font-size: 16px; margin-right: 0px;}
+.main .sec3 .rank .flex-box>.cont2>svg{vertical-align: middle; margin: 0 0px; cursor: pointer;
+    width: 20px; height: 20px;}
+.main .sec3 .rank .flex-box>.cont2>svg:nth-child(2){width: 30px; height: 30px;}
+
+.main .sec3 .rank .flex-box>.cont1 .rank-span span>.m-name1{display: block; font-weight: normal; font-size: 14px;}
+.main .sec3 .rank .flex-box>.cont2>.m-name2{display: none;}
+
+}

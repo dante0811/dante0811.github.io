@@ -1,0 +1,970 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/b20d64090a.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+<link rel="stylesheet" href="css/common.css">
+<link rel="stylesheet" href="css/index.css">
+<link rel="icon" href="img/gennie_logo_2.png" type="img/png" sizes="15x15">
+<title>지니 : 음악, 그리고 설레임</title>
+<style>
+
+
+.intro{position: fixed;width: 100%; height: 100vh; background-color: rgba(255,255,255,0.8); z-index: 100000;}
+.intro img{max-width: 1000px; margin: auto; margin-top: 100px; border: solid 1px gray;}
+
+@media(max-width:1000px){
+    .intro{display: none;}
+}
+
+</style>
+</head>
+<body>
+        <div class="intro">
+    <img src="img/genie_pop.png" alt="">
+</div>
+
+<main>
+
+<header>
+
+
+
+    <div class="top"> <!-- top -->
+        <div class="container"><img src="img/header_top.png" alt=""></div>
+    </div>
+
+    
+    <div class="container flex-box"> <!-- low -->
+            <a href="index.html"><img src="img/genie_logo_b.png" alt="" class="logo"></a>
+        <div class="search-bar"><i class="fa-solid fa-magnifying-glass" style="color: #0096ff;"></i></div>
+        
+    </div>
+</header>
+<!-- 모바일==================================================================================================================== -->
+
+<div class="m-header">
+    <div class=" flex-box">
+        <div class="menu"><i class="fa-solid fa-bars" style="color: #ffffff;"></i></div>
+        <div><a href="index.html"><img src="img/genie_logo_f.jpg" alt=""></a></div>
+        <div class="search"><i class="fa-solid fa-magnifying-glass" style="color: #ffffff;"></i></div>
+    </div>
+
+    
+</div>
+
+<div class="m-search">
+    <div class="m-search-bar"><i class="fa-solid fa-magnifying-glass" style="color: #0096ff;"></i></div>
+</div>
+
+
+
+<div>
+    <div class="list"> <!-- 왼쪽 -->
+        <nav>
+            <ul>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 -960 960 960" width="100%" fill="#0096FF"><path d="M640-160v-280h160v280H640Zm-240 0v-640h160v640H400Zm-240 0v-440h160v440H160Z"/></svg><span>지니차트</span></a></li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 -960 960 960" width="100%" fill="#0096FF"><path d="M480-300q75 0 127.5-52.5T660-480q0-75-52.5-127.5T480-660q-75 0-127.5 52.5T300-480q0 75 52.5 127.5T480-300Zm0-140q-17 0-28.5-11.5T440-480q0-17 11.5-28.5T480-520q17 0 28.5 11.5T520-480q0 17-11.5 28.5T480-440Zm0 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg><span>최신음악</span></a></li>
+                <li><a href="genre.html"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 -960 960 960" width="100%" fill="#0096FF"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h130v-180h-10q-17 0-28.5-11.5T280-420v-340h-80v560Zm430 0h130v-560h-80v340q0 17-11.5 28.5T640-380h-10v180Zm-240 0h180v-180h-10q-17 0-28.5-11.5T520-420v-340h-80v340q0 17-11.5 28.5T400-380h-10v180Z"/></svg>
+                    <span>장르음악</span></a></li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 -960 960 960" width="100%" fill="#0096FF"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h480q33 0 56.5 23.5T720-720v180l160-160v440L720-420v180q0 33-23.5 56.5T640-160H160Zm0-80h480v-480H160v480Zm0 0v-480 480Z"/></svg><span>영상</span></a></li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 -960 960 960" width="100%" fill="#0096FF"><path d="M400-120q-66 0-113-47t-47-113q0-66 47-113t113-47q23 0 42.5 5.5T480-418v-422h240v160H560v400q0 66-47 113t-113 47Z"/></svg><span>추천</span></a></li>
+                <li><a href="mypage.html"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 -960 960 960" width="100%" fill="#0096FF"><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg>
+                    <span>마이페이지</span></a></li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 -960 960 960" width="100%" fill="#0096FF"><path d="M120-320v-80h320v80H120Zm0-160v-80h480v80H120Zm0-160v-80h480v80H120Zm520 520v-320l240 160-240 160Z"/></svg><span>플레이리스트</span></a></li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 -960 960 960" width="100%" fill="#0096FF"><path d="m370-80-16-128q-13-5-24.5-12T307-235l-119 50L78-375l103-78q-1-7-1-13.5v-27q0-6.5 1-13.5L78-585l110-190 119 50q11-8 23-15t24-12l16-128h220l16 128q13 5 24.5 12t22.5 15l119-50 110 190-103 78q1 7 1 13.5v27q0 6.5-2 13.5l103 78-110 190-118-50q-11 8-23 15t-24 12L590-80H370Zm70-80h79l14-106q31-8 57.5-23.5T639-327l99 41 39-68-86-65q5-14 7-29.5t2-31.5q0-16-2-31.5t-7-29.5l86-65-39-68-99 42q-22-23-48.5-38.5T533-694l-13-106h-79l-14 106q-31 8-57.5 23.5T321-633l-99-41-39 68 86 64q-5 15-7 30t-2 32q0 16 2 31t7 30l-86 65 39 68 99-42q22 23 48.5 38.5T427-266l13 106Zm42-180q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Zm-2-140Z"/></svg><span>환경설정</span></a></li>
+                <li><a href="#">이용권 구매</a><a href="#">상품권 등록</a></li>
+            </ul>
+        </nav>
+    </div>
+
+    <div class="main"> <!-- 오른쪽 -->
+        <div class="sec1">
+            <div class="new-music">
+                <h2><a href="#">최신음악</a><a href="#">전체</a><a href="#">국내</a><a href="#">해외</a></h2>
+            </div>
+
+            <div class="new-album">
+
+                <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <img src="img/home_sec1_1.jpg" alt="">
+                                        <p><a href="#">MOONLIGHT</a></p>
+                                        <p><a href="#">솝(soap)</a></p>
+                                    </div>
+                                    <div>
+                                        <img src="img/home_sec1_6.jpg" alt="">
+                                        <p><a href="#">계절의 끝</a></p>
+                                        <p><a href="#">박예은 & 정하늘</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <img src="img/home_sec1_2.jpg" alt="">
+                                        <p><a href="#">THE BOYZ The 10th Mini Album [a;eﬀect]</a></p>
+                                        <p><a href="#">더보이즈(THE BOYZ)</a></p>
+                                    </div>
+                                    <div>
+                                        <img src="img/home_sec1_7.jpg" alt="">
+                                        <p><a href="#">내 삶의 소망</a></p>
+                                        <p><a href="#">1st worship</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <img src="img/home_sec1_3.jpg" alt="">
+                                        <p><a href="#">Supernatural</a></p>
+                                        <p><a href="#">NewJeans</a></p>
+                                    </div>
+                                    <div>
+                                        <img src="img/home_sec1_8.jpg" alt="">
+                                        <p><a href="#">POWER ANDRE 99</a></p>
+                                        <p><a href="#">실리카겔</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <img src="img/home_sec1_4.jpg" alt="">
+                                        <p><a href="#">THE WAR - The 4th Album</a></p>
+                                        <p><a href="#">EXO</a></p>
+                                    </div>
+                                    <div>
+                                        <img src="img/home_sec1_9.jpg" alt="">
+                                        <p><a href="#">What is Love?</a></p>
+                                        <p><a href="#">TWICE (트와이스)</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <img src="img/home_sec1_5.jpg" alt="">
+                                        <p><a href="#">Greatest Hits</a></p>
+                                        <p><a href="#">Balming Tiger</a></p>
+                                    </div>
+                                    <div>
+                                        <img src="img/home_sec1_10.jpg" alt="">
+                                        <p><a href="#">The Time Has Come</a></p>
+                                        <p><a href="#">Zion(자이온)</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <img src="img/home_sec1_11.jpg" alt="">
+                                        <p><a href="#">Bubble girl</a></p>
+                                        <p><a href="#">러니(runy)</a></p>
+                                    </div>
+                                    <div>
+                                        <img src="img/home_sec1_16.jpg" alt="">
+                                        <p><a href="#">24 : 26</a></p>
+                                        <p><a href="#">빈지노(Beenzino)</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <img src="img/home_sec1_12.jpg" alt="">
+                                        <p><a href="#">How Sweet</a></p>
+                                        <p><a href="#">NewJeans</a></p>
+                                    </div>
+                                    <div>
+                                        <img src="img/home_sec1_17.jpg" alt="">
+                                        <p><a href="#">Every letter I sent you.</a></p>
+                                        <p><a href="#">백예린(Yerin Beak)</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <img src="img/home_sec1_13.jpg" alt="">
+                                        <p><a href="#">MAP OF THE SOUL : PERSONA</a></p>
+                                        <p><a href="#">방탄소년단</a></p>
+                                    </div>
+                                    <div>
+                                        <img src="img/home_sec1_18.jpg" alt="">
+                                        <p><a href="#">NO PAIN</a></p>
+                                        <p><a href="#">실리카겔</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <img src="img/home_sec1_14.jpg" alt="">
+                                        <p><a href="#">B2B</a></p>
+                                        <p><a href="#">수주(SUZU)</a></p>
+                                    </div>
+                                    <div>
+                                        <img src="img/home_sec1_19.jpg" alt="">
+                                        <p><a href="#">YES or YES</a></p>
+                                        <p><a href="#">TWICE (트와이스)</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <img src="img/home_sec1_15.jpg" alt="">
+                                        <p><a href="#">Flower</a></p>
+                                        <p><a href="#">너에게 스친별</a></p>
+                                    </div>
+                                    <div>
+                                        <img src="img/home_sec1_20.jpg" alt="">
+                                        <p><a href="#">The Red Summer - Summer Mini Album</a></p>
+                                        <p><a href="#"></a>Red Velvet(레드벨벳)</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <img src="img/home_sec1_21.jpg" alt="">
+                                        <p><a href="#">The Volunteers</a></p>
+                                        <p><a href="#">The Volunteers (더 발룬티어스)</a></p>
+                                    </div>
+                                    <div>
+                                        <img src="img/home_sec1_26.jpg" alt="">
+                                        <p><a href="#">M3MI</a></p>
+                                        <p><a href="#"></a>매미(MEMI)</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <img src="img/home_sec1_22.jpg" alt="">
+                                        <p><a href="#">NewJeans 2nd EP 'Get Up'</a></p>
+                                        <p><a href="#">NewJeans</a></p>
+                                    </div>
+                                    <div>
+                                        <img src="img/home_sec1_27.jpg" alt="">
+                                        <p><a href="#">선물</a></p>
+                                        <p><a href="#"></a>백예린(Yerin Beak)</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <img src="img/home_sec1_23.jpg" alt="">
+                                        <p><a href="#">Permission to Dance</a></p>
+                                        <p><a href="#">방탄소년단</a></p>
+                                    </div>
+                                    <div>
+                                        <img src="img/home_sec1_28.jpg" alt="">
+                                        <p><a href="#">Desert Eagle</a></p>
+                                        <p><a href="#"></a>실리카겔</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <img src="img/home_sec1_24.jpg" alt="">
+                                        <p><a href="#">Crazier - The 11th Album</a></p>
+                                        <p><a href="#">보아(BoA)</a></p>
+                                    </div>
+                                    <div>
+                                        <img src="img/home_sec1_29.jpg" alt="">
+                                        <p><a href="#">FANCY YOU</a></p>
+                                        <p><a href="#"></a>TWICE (트와이스)</a></p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <img src="img/home_sec1_25.jpg" alt="">
+                                        <p><a href="#">The Power of Music - The 4th Album Repackage</a></p>
+                                        <p><a href="#">EXO</a></p>
+                                    </div>
+                                    <div>
+                                        <img src="img/home_sec1_30.jpg" alt="">
+                                        <p><a href="#">Summer Magic - Summer Mini Album</a></p>
+                                        <p><a href="#"></a>Red Velvet(레드벨벳)</a></p>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                       
+                 </div>
+                  <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+            </div>
+        </div>
+
+
+<div class="sec2 flex-box">
+    <div class="chart">
+        <div class="date">
+            <h2>실시간 차트</h2>
+            <p>2025.08.11 &nbsp; 15:00</p>
+        </div>
+
+        <div class="rank">
+            <div class="flex-box">
+                <div class="cont1">
+                    <span>1</span><span>-</span>               
+                    <img src="img/home_sec2-1_1.jpg" alt="">
+                    <div class="rank-span"><span>뛰어(JUMP)<span class="m-name1">BLACKPINK</span></span></div>
+                    
+                </div>
+                    <div class="cont2">
+                        <span class="m-name2">BLACKPINK</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#0096FF"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M440-120v-320H120v-80h320v-320h80v320h320v80H520v320h-80Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/></svg>
+                    </div>
+            </div>
+            <div class="flex-box">
+                <div class="cont1">
+                    <span>2</span>
+                    <span>-</span>
+                    <img src="img/home_sec2-1_2.jpg" alt="">
+                    <div class="rank-span"><span>FAMOUS<span class="m-name1">ALLDAY PROJECT</span></span></div>
+                </div>
+                    <div class="cont2">
+                        <span class="m-name2">ALLDAY PROJECT</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#0096FF"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M440-120v-320H120v-80h320v-320h80v320h320v80H520v320h-80Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/></svg>
+                    </div>
+            </div>
+            <div class="flex-box">
+                <div class="cont1">
+                    <span>3</span>
+                    <span>1<i class="fa-solid fa-caret-up" style="color: #f0780a;"></i></span>
+                    <img src="img/home_sec2-1_3.jpg" alt="">
+                    <div class="rank-span"><span>Drowning<span class="m-name1">WOODZ</span></span></div>
+                </div>
+                    <div class="cont2">
+                        <span class="m-name2">WOODZ</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#0096FF"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M440-120v-320H120v-80h320v-320h80v320h320v80H520v320h-80Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/></svg>
+                    </div>
+            </div>
+            <div class="flex-box">
+                <div class="cont1">
+                    <span>4</span>
+                    <span>1<i class="fa-solid fa-caret-down" style="color: #8cdefa;"></i></span>
+                    <img src="img/home_sec2-1_4.jpg" alt="">
+                    <div class="rank-span"><span>시작의 아이<span class="m-name1">마크툽 (Maktub)</span></span></div>
+                </div>
+                    <div class="cont2">
+                        <span class="m-name2">마크툽 (Maktub)</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#0096FF"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M440-120v-320H120v-80h320v-320h80v320h320v80H520v320h-80Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/></svg>
+                    </div>
+            </div>
+            <div class="flex-box">
+                <div class="cont1">
+                    <span>5</span>
+                    <span>-</span>
+                    <img src="img/home_sec2-1_5.jpg" alt="">
+                    <div class="rank-span"><span>너에게 닿기를<span class="m-name1">10CM</span></span></div>
+                </div>
+                    <div class="cont2">
+                        <span class="m-name2">10CM</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#0096FF"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M440-120v-320H120v-80h320v-320h80v320h320v80H520v320h-80Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/></svg>
+                    </div>
+            </div>
+            <div class="flex-box">
+                <div class="cont1">
+                    <span>6</span>
+                    <span>-</span>
+                    <img src="img/home_sec2-1_6.jpg" alt="">
+                    <div class="rank-span"><span>Dirty Works</span></div>
+                </div>
+                    <div class="cont2">
+                        <span>aespa</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#0096FF"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M440-120v-320H120v-80h320v-320h80v320h320v80H520v320h-80Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/></svg>
+                    </div>
+            </div>
+            <div class="flex-box">
+                <div class="cont1">
+                    <span>7</span>
+                    <span>-</span>
+                    <img src="img/home_sec2-1_7.jpg" alt="">
+                    <div class="rank-span"><span>like JENNIE</span></div>
+                </div>
+                    <div class="cont2">
+                        <span>제니 (JENNIE)</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#0096FF"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M440-120v-320H120v-80h320v-320h80v320h320v80H520v320h-80Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/></svg>
+                    </div>
+            </div>
+            <div class="flex-box">
+                <div class="cont1">
+                    <span>8</span>
+                    <span>-</span>
+                    <img src="img/home_sec2-1_8.jpg" alt="">
+                    <div class="rank-span"><span>HAPPY</span></div>
+                </div>
+                    <div class="cont2">
+                        <span>DAY6 (데이식스)</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#0096FF"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M440-120v-320H120v-80h320v-320h80v320h320v80H520v320h-80Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/></svg>
+                    </div>
+            </div>
+            <div class="flex-box">
+                <div class="cont1">
+                    <span>9</span>
+                    <span>1<i class="fa-solid fa-caret-up" style="color: #f0780a;"></i></span>
+                    <img src="img/home_sec2-1_9.jpg" alt="">
+                    <div class="rank-span"><span>눈물참기</span></div>
+                </div>
+                    <div class="cont2">
+                        <span>QWER</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#0096FF"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M440-120v-320H120v-80h320v-320h80v320h320v80H520v320h-80Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/></svg>
+                    </div>
+            </div>
+            <div class="flex-box">
+                <div class="cont1">
+                    <span>10</span>
+                    <span>1<i class="fa-solid fa-caret-down" style="color: #8cdefa;"></i></span>
+                    <img src="img/home_sec2-1_10.jpg" alt="">
+                    <span class="rank-span"><span>멸종위기사랑</span></span>
+                </div>
+                    <div class="cont2">
+                        <span>이찬혁</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="40px" viewBox="0 -960 960 960" width="40px" fill="#0096FF"><path d="M320-200v-560l440 280-440 280Zm80-280Zm0 134 210-134-210-134v268Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M440-120v-320H120v-80h320v-320h80v320h320v80H520v320h-80Z"/></svg>
+                        <svg xmlns="http://www.w3.org/2000/svg" height="30px" viewBox="0 -960 960 960" width="30px" fill="#000000"><path d="M480-160q-33 0-56.5-23.5T400-240q0-33 23.5-56.5T480-320q33 0 56.5 23.5T560-240q0 33-23.5 56.5T480-160Zm0-240q-33 0-56.5-23.5T400-480q0-33 23.5-56.5T480-560q33 0 56.5 23.5T560-480q0 33-23.5 56.5T480-400Zm0-240q-33 0-56.5-23.5T400-720q0-33 23.5-56.5T480-800q33 0 56.5 23.5T560-720q0 33-23.5 56.5T480-640Z"/></svg>
+                    </div>
+            </div>
+        </div>
+
+<div class="sub-bt flex-box">
+            <div class="rank-sub1">
+                <span><a href="#">전체 듣기</a></span>
+                <span><a href="#">셔플 듣기</a></span>
+                <span><a href="#">전체 다운로드</a></span>
+            </div>
+    
+            <div class="rank-sub2">
+                <span><a href="#">더보기<i class="fa-solid fa-chevron-right" style="color: #0096ff;"></i></a></span>
+            </div>
+    
+</div>
+    </div>
+
+    <div class="h-n">
+        <h2>HOT & NEW</h2>
+
+        <div class="rank2">
+
+            <div class="flex-box">
+                <div class="cont3">
+                    <img src="img/home_sec2-2_1.jpg" alt="">
+                    <div>
+                        <p>Blooming Wings</p>
+                        <p>YENA (최예나)</p>
+                    </div>
+                </div>
+                <div class="cont4">
+                    <p>HOT</p>
+                </div>
+            </div>
+
+            <div class="flex-box">
+                <div class="cont3">
+                    <img src="img/home_sec2-2_2.jpg" alt="">
+                    <div>
+                        <p>사옵뮤 외전 : <br> 여름방학 에디션!</p>
+                        <p>잔나비</p>
+                    </div>
+                </div>
+                <div class="cont4">
+                    <p>HOT</p>
+                </div>
+            </div>
+
+            <div class="flex-box">
+                <div class="cont3">
+                    <img src="img/home_sec2-2_3.jpg" alt="">
+                    <div>
+                        <p>Anything Goes II</p>
+                        <p>매드클라운 (Mad Clown)</p>
+                    </div>
+                </div>
+                <div class="cont4">
+                    <p>HOT</p>
+                </div>
+            </div>
+
+            <div class="flex-box">
+                <div class="cont3">
+                    <img src="img/home_sec2-2_4.jpg" alt="">
+                    <div>
+                        <p>Your side of Seoul</p>
+                        <p>강다나</p>
+                    </div>
+                </div>
+                <div class="cont4">
+                    <p class="new">NEW</p>
+                </div>
+            </div>
+
+            <div class="flex-box">
+                <div class="cont3">
+                    <img src="img/home_sec2-2_5.jpg" alt="">
+                    <div>
+                        <p>silkysmooth 01</p>
+                        <p>Silly Silky (실리실키)</p>
+                    </div>
+                </div>
+                <div class="cont4">
+                    <p class="new">NEW</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+</div>
+
+
+<div class="sec3 pc-mv">
+    <h2>최신 영상</h2>
+    <div class="more"><span><a href="#">더보기<i class="fa-solid fa-chevron-right" style="color: #0096ff;"></i></a></span></div>
+<div class="flex-box">
+        <div>
+            <div class="img-box"><img src="img/home_sec3_1.jpg" alt=""><div class="background"><span>03:13</span></div></div>
+            <p>뛰어(JUMP)</p>
+            <p>BLACKPINK</p>
+        </div>
+        
+        <div>
+            <div class="img-box"><img src="img/home_sec3_2.jpg" alt=""><div class="background"><span>03:36</span></div></div>
+            <p>ETA</p>
+            <p>NewJeans</p>
+        </div>
+    
+        <div>
+            <div class="img-box"><img src="img/home_sec3_3.jpg" alt=""><div class="background"><span>02:39</span></div></div>
+            <p>Stylish</p>
+            <p>더보이즈(THE BOYZ)</p>
+        </div>
+    
+        <div>
+            <div class="img-box"><img src="img/home_sec3_4.jpg" alt=""><div class="background"><span>03:14</span></div></div>
+            <p>선샤인코메디클럽</p>
+            <p>잔나비</p>
+        </div>
+</div>
+
+</div>
+
+<div class="m-mv">
+    <h2>최신 영상</h2>
+    <div class="more"><span><a href="#">더보기<i class="fa-solid fa-chevron-right" style="color: #0096ff;"></i></a></span></div>
+
+            <div class="m-mv-swiper">
+
+                <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div>
+                                    <div class="m-img">
+                                        <div class="img-box"><img src="img/home_sec3_1.jpg" alt=""><div class="background"><span>03:13</span></div></div>
+                                        <p>뛰어(JUMP)</p>
+                                        <p>BLACKPINK</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div>
+                                    <div class="m-img">
+                                        <div class="img-box"><img src="img/home_sec3_2.jpg" alt=""><div class="background"><span>03:36</span></div></div>
+                                        <p>ETA</p>
+                                        <p>NewJeans</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div>
+                                    <div class="m-img">
+                                        <div class="img-box"><img src="img/home_sec3_3.jpg" alt=""><div class="background"><span>02:39</span></div></div>
+                                        <p>Stylish</p>
+                                        <p>더보이즈(THE BOYZ)</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div>
+                                    <div class="m-img">
+                                        <div class="img-box"><img src="img/home_sec3_4.jpg" alt=""><div class="background"><span>03:14</span></div></div>
+                                        <p>선샤인코메디클럽</p>
+                                        <p>잔나비</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+            </div>
+
+        </div>
+
+<div class="pc-reco">
+    <div class="sec4">
+        <h2>추천 플레이리스트</h2>
+        <div class="more"><span><a href="#">더보기<i class="fa-solid fa-chevron-right" style="color: #0096ff;"></i></a></span></div>
+
+        <div class="flex-box">
+            <div>
+                <div class="img-box"><img src="img/home_sec4_1.jpg" alt=""></div>
+                <p>비 오면 생각나는 그 사람</p>
+                <p><span>DJ</span> Raindrop</p>
+                <p>#비 #흐림</p>
+            </div>
+
+            <div>
+                <div class="img-box"><img src="img/home_sec4_2.jpg" alt=""></div>
+                <p class="long">청량미 뿜뿜! 에어컨이 필요 없는 K-POP 플레이리스트</p>
+                <p><span>DJ</span> 나나</p>
+                <p>#K-POP #신나는 #여름</p>
+            </div>
+
+            <div>
+                <div class="img-box"><img src="img/home_sec4_3.jpg" alt=""></div>
+                <p>그때 그 시절 노래!</p>
+                <p><span>DJ</span> Soul</p>
+                <p>#추억 #감성</p>
+            </div>
+
+            <div>
+                <div class="img-box"><img src="img/home_sec4_4.jpg" alt=""></div>
+                <p>듣기만 해도 설레는 멜로디</p>
+                <p><span>DJ</span> Love Story</p>
+                <p>#사랑 #설렘</p>
+            </div>
+
+            <div>
+                <div class="img-box"><img src="img/home_sec4_5.jpg" alt=""></div>
+                <p class="long">과속주의!! 드라이브 필수 플레이리스트!</p>
+                <p><span>DJ</span> 망고빙수</p>
+                <p>#드라이브 #기분전환</p>
+            </div>
+
+            <div>
+                <div class="img-box"><img src="img/home_sec4_6.jpg" alt=""></div>
+                <p>Let`s Rock Baby!</p>
+                <p><span>DJ</span> Metal Guy</p>
+                <p>#METAL #ROCK #신나는</p>
+            </div>
+
+            <div>
+                <div class="img-box"><img src="img/home_sec4_7.jpg" alt=""></div>
+                <p>출근 길에 듣는 OST 모음</p>
+                <p><span>DJ</span> 지닝</p>
+                <p>#영화 #드라마 #OST</p>
+            </div>
+
+            <div>
+                <div class="img-box"><img src="img/home_sec4_8.jpg" alt=""></div>
+                <p>나 오늘 집에 안 갈래~</p>
+                <p><span>DJ</span> Crazy</p>
+                <p>#댄스 #가요</p>
+            </div>
+        </div>
+</div>
+
+
+</div>
+
+<div class="m-reco">
+    <h2>최신 영상</h2>
+    <div class="more"><span><a href="#">더보기<i class="fa-solid fa-chevron-right" style="color: #0096ff;"></i></a></span></div>
+
+            <div class="m-reco-swiper">
+
+                <div class="swiper mySwiper">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <div class="img-box"><img src="img/home_sec4_1.jpg" alt=""></div>
+                                        <p>비 오면 생각나는 그 사람</p>
+                                        <p><span>DJ</span> Raindrop</p>
+                                        <p>#비 #흐림</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <div class="img-box"><img src="img/home_sec4_2.jpg" alt=""></div>
+                                        <p class="long">청량미 뿜뿜! 에어컨이 필요 없는 K-POP 플레이리스트</p>
+                                        <p><span>DJ</span> 나나</p>
+                                        <p>#K-POP #신나는 #여름</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <div class="img-box"><img src="img/home_sec4_3.jpg" alt=""></div>
+                                        <p>그때 그 시절 노래!</p>
+                                        <p><span>DJ</span> Soul</p>
+                                        <p>#추억 #감성</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <div class="img-box"><img src="img/home_sec4_4.jpg" alt=""></div>
+                                        <p>듣기만 해도 설레는 멜로디</p>
+                                        <p><span>DJ</span> Love Story</p>
+                                        <p>#사랑 #설렘</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <div class="img-box"><img src="img/home_sec4_5.jpg" alt=""></div>
+                                        <p class="long">과속주의!! 드라이브 필수 플레이리스트!</p>
+                                        <p><span>DJ</span> 망고빙수</p>
+                                        <p>#드라이브 #기분전환</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <div class="img-box"><img src="img/home_sec4_6.jpg" alt=""></div>
+                                        <p>Let`s Rock Baby!</p>
+                                        <p><span>DJ</span> Metal Guy</p>
+                                        <p>#METAL #ROCK #신나는</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <div class="img-box"><img src="img/home_sec4_7.jpg" alt=""></div>
+                                        <p>출근 길에 듣는 OST 모음</p>
+                                        <p><span>DJ</span> 지닝</p>
+                                        <p>#영화 #드라마 #OST</p>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div>
+                                    <div>
+                                        <div class="img-box"><img src="img/home_sec4_8.jpg" alt=""></div>
+                                        <p>나 오늘 집에 안 갈래~</p>
+                                        <p><span>DJ</span> Crazy</p>
+                                        <p>#댄스 #가요</p>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+                </div>
+                        <div class="swiper-button-next"></div>
+                        <div class="swiper-button-prev"></div>
+            </div>
+
+        </div>
+
+
+
+
+
+</div> <!-- 메인 div -->
+
+    </div> <!-- 전체 div --> 
+
+
+
+
+
+
+
+
+<footer>
+    <div class="flex-box">
+        <div class="f-logo1"><img src="img/kt_logo.png" alt=""></div>
+        <div class="f-logo2">
+            <img src="img/footer_instagram_icon.svg" alt="">
+            <img src="img/footer_youtube_icon.svg" alt="">
+            <img src="img/footer_x_icon.svg" alt="">
+        </div>
+    </div>
+
+<div class="f-1">
+    <a href="#"><span>회사소개</span></a>
+    <a href="#"><span>이용약관</span></a>
+    <a href="#"><span>게인정보처리방침</span></a> <br class="p-br">
+    <a href="#"><span>청소년보호정책</span></a>
+    <a href="#"><span>위치기반 서비스 이용약관</span></a> <br class="p-br">
+    <a href="#"><span>이메일주소무단수집거부</span></a>
+    <a href="#"><span>서비스 이용문의</span></a> <br class="p-br">
+    <a href="#"><span>제휴 문의</span></a>
+</div>
+
+<div class="f-2">
+<a href="#"><span>대표이사 서인욱</span></a> <br class="p-br">
+<a href="#"><span>서울특별시 강남구 강남대로 456, 4-9층</span></a> <br class="t-br"> <br class="p-br">
+<a href="#"><span>(역삼동, 한석타워)</span></a> <br class="p-br">
+<a href="#"><span>사업자등록번호 314-81-03453</span></a> <br class="p-br">
+<a href="#"><span>통신판매업신고 2013-서울강남-01302</span></a>
+</div>
+
+<div class="f-3">
+<a href="#"><span>사업자 정보 확인</span></a> <br class="p-br">
+<a href="#"><span>서비스문의 1577-5337&nbsp; /&nbsp; help@ktmusic.co.com</span></a> <br class="t-br"> <br class="p-br">
+<a href="#"><span>개인정보보호책임자 홍세희 본부장</span></a> <br class="p-br">
+<a href="#"><span>호스팅제공자 (주)케이티지니뮤직</span></a>
+</div>
+
+<div class="f-4">
+<a href="#"><span>COPYRIGHT ⓒ KT GENIE MUSIC CORP. ALL RIGHTS RESERVED.</span></a>
+</div>
+
+
+</footer>
+
+<div class="m-list"> <!-- 왼쪽 -->
+        <nav>
+            <ul>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 -960 960 960" width="100%" fill="#0096FF"><path d="M640-160v-280h160v280H640Zm-240 0v-640h160v640H400Zm-240 0v-440h160v440H160Z"/></svg><span>지니차트</span></a></li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 -960 960 960" width="100%" fill="#0096FF"><path d="M480-300q75 0 127.5-52.5T660-480q0-75-52.5-127.5T480-660q-75 0-127.5 52.5T300-480q0 75 52.5 127.5T480-300Zm0-140q-17 0-28.5-11.5T440-480q0-17 11.5-28.5T480-520q17 0 28.5 11.5T520-480q0 17-11.5 28.5T480-440Zm0 360q-83 0-156-31.5T197-197q-54-54-85.5-127T80-480q0-83 31.5-156T197-763q54-54 127-85.5T480-880q83 0 156 31.5T763-763q54 54 85.5 127T880-480q0 83-31.5 156T763-197q-54 54-127 85.5T480-80Zm0-80q134 0 227-93t93-227q0-134-93-227t-227-93q-134 0-227 93t-93 227q0 134 93 227t227 93Zm0-320Z"/></svg><span>최신음악</span></a></li>
+                <li><a href="genre.html"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 -960 960 960" width="100%" fill="#0096FF"><path d="M200-120q-33 0-56.5-23.5T120-200v-560q0-33 23.5-56.5T200-840h560q33 0 56.5 23.5T840-760v560q0 33-23.5 56.5T760-120H200Zm0-80h130v-180h-10q-17 0-28.5-11.5T280-420v-340h-80v560Zm430 0h130v-560h-80v340q0 17-11.5 28.5T640-380h-10v180Zm-240 0h180v-180h-10q-17 0-28.5-11.5T520-420v-340h-80v340q0 17-11.5 28.5T400-380h-10v180Z"/></svg>
+                    <span>장르음악</span></a></li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 -960 960 960" width="100%" fill="#0096FF"><path d="M160-160q-33 0-56.5-23.5T80-240v-480q0-33 23.5-56.5T160-800h480q33 0 56.5 23.5T720-720v180l160-160v440L720-420v180q0 33-23.5 56.5T640-160H160Zm0-80h480v-480H160v480Zm0 0v-480 480Z"/></svg><span>영상</span></a></li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 -960 960 960" width="100%" fill="#0096FF"><path d="M400-120q-66 0-113-47t-47-113q0-66 47-113t113-47q23 0 42.5 5.5T480-418v-422h240v160H560v400q0 66-47 113t-113 47Z"/></svg><span>추천</span></a></li>
+                <li><a href="mypage.html"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 -960 960 960" width="100%" fill="#0096FF"><path d="M480-480q-66 0-113-47t-47-113q0-66 47-113t113-47q66 0 113 47t47 113q0 66-47 113t-113 47ZM160-160v-112q0-34 17.5-62.5T224-378q62-31 126-46.5T480-440q66 0 130 15.5T736-378q29 15 46.5 43.5T800-272v112H160Zm80-80h480v-32q0-11-5.5-20T700-306q-54-27-109-40.5T480-360q-56 0-111 13.5T260-306q-9 5-14.5 14t-5.5 20v32Zm240-320q33 0 56.5-23.5T560-640q0-33-23.5-56.5T480-720q-33 0-56.5 23.5T400-640q0 33 23.5 56.5T480-560Zm0-80Zm0 400Z"/></svg>
+                    <span>마이페이지</span></a></li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 -960 960 960" width="100%" fill="#0096FF"><path d="M120-320v-80h320v80H120Zm0-160v-80h480v80H120Zm0-160v-80h480v80H120Zm520 520v-320l240 160-240 160Z"/></svg><span>플레이리스트</span></a></li>
+                <li><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="100%" viewBox="0 -960 960 960" width="100%" fill="#0096FF"><path d="m370-80-16-128q-13-5-24.5-12T307-235l-119 50L78-375l103-78q-1-7-1-13.5v-27q0-6.5 1-13.5L78-585l110-190 119 50q11-8 23-15t24-12l16-128h220l16 128q13 5 24.5 12t22.5 15l119-50 110 190-103 78q1 7 1 13.5v27q0 6.5-2 13.5l103 78-110 190-118-50q-11 8-23 15t-24 12L590-80H370Zm70-80h79l14-106q31-8 57.5-23.5T639-327l99 41 39-68-86-65q5-14 7-29.5t2-31.5q0-16-2-31.5t-7-29.5l86-65-39-68-99 42q-22-23-48.5-38.5T533-694l-13-106h-79l-14 106q-31 8-57.5 23.5T321-633l-99-41-39 68 86 64q-5 15-7 30t-2 32q0 16 2 31t7 30l-86 65 39 68 99-42q22 23 48.5 38.5T427-266l13 106Zm42-180q58 0 99-41t41-99q0-58-41-99t-99-41q-59 0-99.5 41T342-480q0 58 40.5 99t99.5 41Zm-2-140Z"/></svg><span>환경설정</span></a></li>
+                <li><a href="#">이용권 구매</a><a href="#">상품권 등록</a></li>
+            </ul>
+        </nav>
+    </div>
+
+</main>
+
+<!-- musicplay  ============================================  -->
+
+<div class="musicplay">
+
+    <div class="flex-box">
+        <div class="music-title">
+            <p>Come As You Are</p>
+            <p>Nirvana</p>
+        </div>
+    
+        <div class="music-icon">
+            <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#ffffff"><path d="M860-240 500-480l360-240v480Zm-400 0L100-480l360-240v480Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="65px" viewBox="0 -960 960 960" width="65px" fill="#ffffff"><path d="M555-200v-560h175v560H555Zm-325 0v-560h175v560H230Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#ffffff"><path d="M100-240v-480l360 240-360 240Zm400 0v-480l360 240-360 240Z"/></svg>
+            <svg xmlns="http://www.w3.org/2000/svg" height="50px" viewBox="0 -960 960 960" width="50px" fill="#ffffff"><path d="M120-320v-80h320v80H120Zm0-160v-80h480v80H120Zm0-160v-80h480v80H120Zm520 520v-320l240 160-240 160Z"/></svg>
+        </div>
+    </div>
+
+</div>
+
+<!-- musicplay  ============================================  -->
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="js/common.js"></script>
+<script>
+    $(function(){
+        $('.intro').click(function(){
+            $('.intro').hide();
+        });
+
+    });
+</script>
+
+
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+  <!-- Initialize Swiper -->
+  <script>
+    var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 2.5,
+      spaceBetween: 20,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+
+// 기기별 제어하는 것 
+// 기술순서 폰, 테블릿, pc  미디어쿼리와 반대로 
+
+        breakpoints: {
+                768: {
+                slidesPerView: 3,
+                spaceBetween: 20,
+                },
+                
+                997: {
+                slidesPerView: 5,
+                spaceBetween: 20,
+                },
+            },
+
+
+
+
+    });
+  </script>
+
+
+</body>
+</html>
