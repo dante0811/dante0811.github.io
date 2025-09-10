@@ -1,0 +1,189 @@
+/* 섹션1======================================================================================================================== */
+section.sec1 div{border: solid 5px #ffc72c; border-radius: 90px; overflow: hidden; margin-top: 150px; position: relative;}
+section.sec1 div h2{color: #ffffff; font-size: 60px;
+position: absolute; z-index: 10; top: 340px; left: 120px;}
+
+/* 섹션2======================================================================================================================== */
+section.sec2{margin-top: 100px;}
+section.sec2 h2{font-size: 35px; text-align: center;}
+section.sec2 p{font-size: 25px; text-align: center; margin-top: 30px; color: #616161;}
+section.sec2 .sec2-h2{display: none;}
+section.sec2 .sec2-p{display: none;}
+section.sec2 .red{display: none;}
+
+/* 섹션3======================================================================================================================== */
+section.sec3{margin-top: 200px;  padding: 50px 0;  /* background-color: rgb(17, 113, 62); */}
+
+section.sec3 .text1{background-color: #ffc72c; text-align: right; padding: 40px 0;}
+section.sec3 .text1 .container h2{font-size: 35px;}
+section.sec3 .text1 .container p:nth-child(2){font-size: 20px; font-weight: bold; margin-top: 10px;}
+section.sec3 .text1 .container p:nth-child(3){font-size: 20px; margin-top: 10px;}
+
+section.sec3 .story1{width: 648px;  position: absolute;
+top: 50%; left: 255px; transform:translateY(-50%);}
+section.sec3 .story1 img{border-radius: 90px;}
+section.sec3 .sec-bt1 a{display: block; margin-left: auto; margin-right: 0; width: 200px; background-color: #ffc72c; padding: 20px 0;
+text-align: center; color: #1F1F1F; border-radius: 90px; margin-top: 71px; font-weight: bold;}
+section.sec3 .sec3-1{position: relative;}
+section.sec3 .sec-bt1 a:hover{background-color: #ecad00;}
+
+
+section.sec3 .text2{background-color: #ffc72c; text-align: left; padding: 40px 0;}
+section.sec3 .text2 .container h2{font-size: 35px;}
+section.sec3 .text2 .container p:nth-child(2){font-size: 20px; font-weight: bold; margin-top: 10px;}
+section.sec3 .text2 .container p:nth-child(3){font-size: 20px; margin-top: 10px;}
+
+section.sec3 .story2{width: 648px;  position: absolute;
+top: 50%; right: 255px; transform:translateY(-50%);}
+section.sec3 .story2 img{border-radius: 90px;}
+section.sec3 .sec-bt2 a{display: block; margin-left: auto; margin-left: 0; width: 200px; background-color: #ffc72c; padding: 20px 0;
+text-align: center; color: #1F1F1F; border-radius: 90px; margin-top: 71px; font-weight: bold;}
+section.sec3 .sec3-2{position: relative; margin-top: 200px;}
+section.sec3 .sec-bt2 a:hover{background-color: #ecad00;}
+
+
+section.sec3 .text3{background-color: #ffc72c; text-align: right; padding: 40px 0;}
+section.sec3 .text3 .container h2{font-size: 35px;}
+section.sec3 .text3 .container p:nth-child(2){font-size: 20px; font-weight: bold; margin-top: 10px;}
+section.sec3 .text3 .container p:nth-child(3){font-size: 20px; margin-top: 10px;}
+
+section.sec3 .story3{width: 648px;  position: absolute;
+top: 50%; left: 255px; transform:translateY(-50%);}
+section.sec3 .story3 img{border-radius: 90px;}
+section.sec3 .sec-bt3 a{display: block; margin-left: auto; margin-right: 0; width: 200px; background-color: #ffc72c; padding: 20px 0;
+text-align: center; color: #1F1F1F; border-radius: 90px; margin-top: 71px; font-weight: bold;}
+section.sec3 .sec3-3{position: relative; margin-top: 200px;}
+section.sec3 .sec-bt3 a:hover{background-color: #ecad00;}
+
+
+section.sec3 .text4{background-color: #ffc72c; text-align: left; padding: 40px 0;}
+section.sec3 .text4 .container h2{font-size: 35px;}
+section.sec3 .text4 .container p:nth-child(2){font-size: 20px; font-weight: bold; margin-top: 10px;}
+section.sec3 .text4 .container p:nth-child(3){font-size: 20px; margin-top: 10px;}
+
+section.sec3 .story4{width: 648px;  position: absolute;
+top: 50%; right: 255px; transform:translateY(-50%);}
+section.sec3 .story4 img{border-radius: 90px;}
+section.sec3 .sec-bt4 a{display: block; margin-left: auto; margin-left: 0; width: 200px; background-color: #ffc72c; padding: 20px 0;
+text-align: center; color: #1F1F1F; border-radius: 90px; margin-top: 71px; font-weight: bold;}
+section.sec3 .sec3-4{position: relative; margin-top: 200px;}
+section.sec3 .sec-bt4 a:hover{background-color: #ecad00;}
+
+@media(max-width: 991px){
+/* 테블릿 섹션1======================================================================================================================== */
+section.sec1{padding: 0 10px;}
+section.sec1 div{border-radius: 60px; overflow: hidden; margin-top: 110px; position: relative;}
+section.sec1 div h2{font-size: 50px;
+position: absolute; z-index: 10; top: 170px; left: 50px;}
+
+
+
+/* 테블릿 섹션2======================================================================================================================== */
+section.sec2{margin-top: 30px;}
+section.sec2 h2{font-size: 30px; text-align: center;}
+section.sec2 p{font-size: 20px; text-align: center; margin-top: 30px; color: #616161;}
+
+/* 테블릿 섹션3======================================================================================================================== */
+section.sec3{margin-top: 80px;  padding: 50px 0;}
+
+section.sec3 .text1{background-color: #ffc72c; text-align: right; padding: 25px 0;}
+section.sec3 .text1 .container{padding-left: 20px; padding-right: 20px;}
+section.sec3 .text1 .container>h2{font-size: 25px;}
+section.sec3 .text1 .container>div p:nth-child(2){font-size: 18px; margin-top: 10px;}
+section.sec3 .text1 .container>div p:nth-child(3){font-size: 18px; margin-top: 10px;}
+
+section.sec3 .story1{width: 45%; left: 20px;}
+section.sec3 .story1 img{border-radius: 40px;}
+section.sec3 .sec-bt1 a{margin-right: 20px; width: 180px; margin-top: 20px;}
+
+
+section.sec3 .text2{background-color: #ffc72c; text-align: left; padding: 25px 0;}
+section.sec3 .text2 .container{padding-left: 20px; padding-right: 20px;}
+section.sec3 .text2 .container>h2{font-size: 25px;}
+section.sec3 .text2 .container>div p:nth-child(2){font-size: 18px; margin-top: 10px;}
+section.sec3 .text2 .container>div p:nth-child(3){font-size: 18px; margin-top: 10px;}
+
+section.sec3 .story2{width: 45%; right: 20px;}
+section.sec3 .story2 img{border-radius: 40px;}
+section.sec3 .sec-bt2 a{margin-left: 20px; width: 180px; margin-top: 20px;}
+section.sec3 .sec3-2{margin-top: 100px;}
+
+section.sec3 .text3{background-color: #ffc72c; text-align: right; padding: 25px 0;}
+section.sec3 .text3 .container{padding-left: 20px; padding-right: 20px;}
+section.sec3 .text3 .container>h2{font-size: 25px;}
+section.sec3 .text3 .container>div p:nth-child(2){font-size: 18px; margin-top: 10px;}
+section.sec3 .text3 .container>div p:nth-child(3){font-size: 18px; margin-top: 10px;}
+
+section.sec3 .story3{width: 45%; left: 20px;}
+section.sec3 .story3 img{border-radius: 40px;}
+section.sec3 .sec-bt3 a{margin-right: 20px; width: 180px; margin-top: 20px;}
+section.sec3 .sec3-3{margin-top: 100px;}
+
+section.sec3 .text4{background-color: #ffc72c; text-align: left; padding: 25px 0;}
+section.sec3 .text4 .container{padding-left: 20px; padding-right: 20px;}
+section.sec3 .text4 .container>h2{font-size: 25px;}
+section.sec3 .text4 .container>div p:nth-child(2){font-size: 18px; margin-top: 10px;}
+section.sec3 .text4 .container>div p:nth-child(3){font-size: 18px; margin-top: 10px;}
+
+section.sec3 .story4{width: 45%; right: 20px;}
+section.sec3 .story4 img{border-radius: 40px;}
+section.sec3 .sec-bt4 a{margin-left: 20px; width: 180px; margin-top: 20px;}
+section.sec3 .sec3-4{margin-top: 100px;}
+
+}
+
+@media(max-width: 767px){
+/* 모바일 섹션1======================================================================================================================== */
+section.sec1{padding: 0px;}
+section.sec1 div{border: none; border-radius: 0px; margin-top: 60px; position: relative;}
+section.sec1 div h2{font-size: 35px;
+position: absolute; z-index: 10; top: 90px; left: 30px;}
+
+
+/* 모바일 섹션2======================================================================================================================== */
+section.sec2{margin-top: 20px; padding: 0 20px;}
+section.sec2 .sec2-pc-ta{display: none;}
+section.sec2 .sec2-h2{display: inline;}
+section.sec2 .red{display: inline;}
+section.sec2 .sec2-p{display: inline-block;}
+section.sec2 h2.red{font-size: 25px; text-align: left; color: #da291c;}
+section.sec2 h2.sec2-h2{font-size: 25px; text-align: left; margin-top: 20px;}
+section.sec2 p.sec2-p{font-size: 14px; text-align: left; color: #616161; margin-top: 8px;}
+
+/* 모바일 섹션3======================================================================================================================== */
+section.sec3{margin-top: 10px;}
+section.sec3 .text1, section.sec3 .text2, section.sec3 .text3, section.sec3 .text4{background-color: #ffffff;}
+section.sec3 .sec-bt1 a{margin: 50px auto; margin-top: 10px;}
+section.sec3 .sec-bt2 a{margin: 50px auto; margin-top: 10px;}
+section.sec3 .sec-bt3 a{margin: 50px auto; margin-top: 10px;}
+section.sec3 .sec-bt4 a{margin: 50px auto; margin-top: 10px;}
+
+section.sec3 .story1, section.sec3 .story2,section.sec3 .story3,section.sec3 .story4{position: static; width: 100%; 
+transform: translateY(0);} 
+section.sec3 .story1 img, section.sec3 .story2 img,section.sec3 .story3 img,section.sec3 .story4 img{border-radius: 0; }
+
+section.sec3 .text1{text-align: left; padding: 10px 0;}
+section.sec3 .text1 .container h2{font-size: 25px;}
+section.sec3 .text1 .container>div p:nth-child(2){margin-top: 3px; font-size: 16px;}
+section.sec3 .text1 .container>div p:nth-child(3){margin-top: 3px; font-size: 16px;}
+
+section.sec3 .sec3-2{margin-top: 80px;}
+section.sec3 .text2 .container h2{font-size: 25px;}
+section.sec3 .text2{text-align: left; padding: 10px 0;}
+section.sec3 .text2 .container>div p:nth-child(2){margin-top: 3px; font-size: 16px;}
+section.sec3 .text2 .container>div p:nth-child(3){margin-top: 3px; font-size: 16px;}
+
+section.sec3 .sec3-3{margin-top: 80px;}
+section.sec3 .text3 .container h2{font-size: 25px;}
+section.sec3 .text3{text-align: left; padding: 10px 0;}
+section.sec3 .text3 .container>div p:nth-child(2){margin-top: 3px; font-size: 16px;}
+section.sec3 .text3 .container>div p:nth-child(3){margin-top: 3px; font-size: 16px; letter-spacing: -0.4px;}
+
+section.sec3 .sec3-4{margin-top: 80px;}
+section.sec3 .text4 .container h2{font-size: 25px;}
+section.sec3 .text4{text-align: left; padding: 10px 0;}
+section.sec3 .text4 .container>div p:nth-child(2){margin-top: 3px; font-size: 16px;}
+section.sec3 .text4 .container>div p:nth-child(3){margin-top: 3px; font-size: 16px;}
+
+
+}
