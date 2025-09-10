@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/b20d64090a.js" crossorigin="anonymous"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Bowlby+One&display=swap" rel="stylesheet">
+<link rel="icon" href="img/lp_intro.png" type="img/png" sizes="15x15">
+
+<link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+<title></title>
+<style>
+*{margin: 0; padding: 0; box-sizing: border-box; list-style: none; text-decoration: none; }
+img{width: 100%; display: block;}
+body{ font-family:"Noto Sans", "Noto Sans KR", sans-serif;  background-color: #ff6d13;} 
+/* body{ font-family:"Bowlby One", "Noto Sans KR", sans-serif;  background-color: #ff7119;}  */
+
+a{color: #eeeeee;}
+.flex-box{display: flex; flex-wrap: wrap;}
+.container{max-width: 1400px; margin: auto;}
+
+/* sec1=================================================================================================================== */
+.sec1 {height: 100vh; position: relative; font-family:"Bowlby One"}
+.sec1>div{width: 50%;}
+.sec1 .left h2{font-size: 60px; line-height: 100vh; letter-spacing: 6px; color: #eeeeee;
+position: absolute; left: 0px; left: -1000px; ;z-index: 10;
+animation-name: ani1;
+animation-duration: 1s;
+animation-fill-mode: forwards;
+animation-delay: 0s;}
+.sec1 .right{position: relative;}
+
+.sec1 .right .img-box{position: absolute; z-index: 1; top: 50%; transform: translateY(-50%); width: 485px; right: 0; }
+.sec1 .right .img-box img{animation-name: rotate; animation-duration: 5s;
+animation-iteration-count: infinite; animation-timing-function: linear;}
+.sec1 .right .line{position: absolute; z-index: 2; top: 50%; transform: translateY(-50%); width: 336px; height: 600px;
+right: 200px;}
+
+@keyframes ani1{
+    from{} /* from값 생략가능 */
+    to{left: 50px;}}
+
+@keyframes rotate{
+    from{}
+    to{transform: rotate(360deg);}
+}
+
+/* sec2=================================================================================================================== */
+.sec2 {height: 100vh;}
+.sec2 h2{font-size: 50px; letter-spacing: 6px; color: #eeeeee;}
+.sec2 h2>span{font-size: 38px;}
+.sec2 .title-line{border-bottom: solid 5px #eeeeee;}
+
+.sec2 .flex-box>div{width: 50%;}
+
+.sec2 .flex-box .cont1 .text1{margin-top: 100px;}
+.sec2 .flex-box .cont1 .text1>h2{font-size: 38px; letter-spacing: 3px;}
+.sec2 .flex-box .cont1 .text2{margin-top: 50px;}
+.sec2 .flex-box .cont1 .text2>span{font-size: 30px; color: #eeeeee;}
+
+.sec2 .flex-box .cont2{position: relative;width: 50%; right: 0;}
+.sec2 .flex-box .cont2 .top{position: absolute; z-index: 2; top:0px; right:0%; width: 100%;}
+.sec2 .flex-box .cont2 .top p{margin-left: -20px; padding-top: 30px; text-align: center; font-weight: bold; font-size: 150px; color:#ff6d13; font-family:"Bowlby One"}
+.sec2 .flex-box .cont2 .bottom{position: absolute; z-index: 1; top: 90px;}
+
+/* sec3=================================================================================================================== */
+.sec3{height: 100vh;}
+.sec3 h2{font-size: 50px; letter-spacing: 6px; color: #eeeeee;}
+.sec3 h2>span{font-size: 38px;}
+.sec3 .title-line{border-bottom: solid 5px #eeeeee;}
+
+.sec3 .flex-box{margin-top: 100px; ;}
+.sec3 .flex-box>div{width: 25%;}
+.sec3 .flex-box .lp-box{position: relative;  }
+.sec3 .flex-box .lp-box .lp{position: absolute; z-index: -1; top: 0%; /* transform: translateY(-50%); */
+width: 218px; left: 108px; cursor: pointer;}
+
+.lp.rotate-box{animation-name: rotate; animation-duration: 5s;
+animation-iteration-count: infinite; animation-timing-function: linear;}
+
+.sec3 .flex-box .lp-box >span{font-size: 24px; color: #eeeeee; 
+display: inline-block;width: 218px; text-align: center; cursor: pointer;}
+
+.sec3 .flex-box .lp-box .album{width: 218px; cursor: pointer;}
+
+/* sec4=================================================================================================================== */
+.sec4{ height: 100vh;}
+.sec4 h2{font-size: 50px; letter-spacing: 6px; color: #eeeeee;}
+.sec4 h2>span{font-size: 38px;}
+.sec4 .title-line{border-bottom: solid 5px #eeeeee;}
+
+.sec4 .sub-title {margin-top: 60px; color:#eeeeee; font-size: 16px; padding-bottom: 30px;}
+
+.sec4 .flex-box>div{width: 25%;}
+.sec4 .flex-box .lp-box{position: relative; }
+.sec4 .flex-box .lp-box .lp{position: absolute; z-index: -1; top: 0%; /* transform: translateY(-50%); */
+width: 218px; left: 108px; cursor: pointer;}
+
+.sec4 .flex-box .lp-box >span{font-size: 24px; color: #eeeeee; 
+display: inline-block; width: 218px; text-align: center; cursor: pointer;}
+
+.sec4 .flex-box .lp-box>.letter{letter-spacing: 5px;}
+
+.sec4 .flex-box .lp-box .album{width: 218px; cursor: pointer;}
+
+
+
+
+/* 모달창 */
+
+.modal {
+    text-align: center;
+    display: none;  
+    
+    position: fixed;
+    left: 0;
+    top: 0;    
+
+    overflow-y: auto;
+    
+    width: 100%;
+    height: 100%;   
+
+    background-color: rgba(0, 0, 0, 0.7);
+
+    z-index: 900; /* z-index는 반드시 들어가야 한다 */ }
+
+
+.modal-wrap {
+  
+    position: absolute;
+    left: 10%;/* 항상 수평 영역의 중앙에 위치하도록 설정 */
+    top: 100px;
+    
+    display: block;
+    width:80%;
+    
+    padding-bottom:50px;    
+}
+
+.modal-body{   background-color: #fff;  text-align: center; padding:20px 10px; position: relative;padding-top: 50px; }  
+
+.modal-close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+
+    display: block;
+    width: 50px;
+  
+    font-size: 50px;
+
+    border: 0;
+    /* color: #fff; */
+    cursor: pointer;
+    /* background-color: #000; */
+}
+
+.modal img{max-width: 860px;margin: auto;}
+.pc img{max-width: 1400px;margin: auto;}
+
+
+.modal-body .genie a{color:gray; font-size: 16px;}
+.modal-body .genie a:hover{color:#0096ff;}
+
+.modal-body .genie a{font-size: 20px; vertical-align: middle;}
+.modal-body .genie a>i{font-size: 20px; vertical-align: middle;}
+
+.modal-body .mc1{font-size: 20px; font-weight: bold; color: #000; padding: 15px 25px; background-color: #ffc72c; border-radius: 40px;}
+.modal-body .mc2{font-size: 26px; font-weight: bold; color: #000; padding-top: 40px;}
+
+.modal-body .detail1{font-size: 18px; color: #787878;}
+.modal-body .detail2{font-size: 28px; color: #000; padding-top: 15px;}
+.modal-body .diptyque{font-size: 18px; color: #000; padding-top: 15px;}
+
+.modal-body .starbucks{font-size: 18px; color: #000; padding-top: 15px; padding-bottom: 30px;}
+.modal .img-top{margin-top: 50px;}
+
+.intro_mo{display: none;}
+
+
+@media (max-width:1440px){
+    .container{padding: 10px 40px;}
+}
+
+@media (max-width:1360px){
+.container{padding: 10px 40px;}
+.sec2 .flex-box .cont1 .text1>h2{font-size: 28px;}
+.sec2 .flex-box .cont1 .text2>span{font-size: 20px;}
+
+/* 앨범 크기 ============  */
+.sec3 .flex-box .lp-box .album{width: 60%; }
+.sec3 .flex-box .lp-box .lp{width: 60%;left:30%;}
+
+.sec4 .flex-box .lp-box .album{ width: 60%;}
+.sec4 .flex-box .lp-box .lp{width: 60%;left:30%;}
+
+}
+
+@media (max-width:992px){
+
+.sec4 .flex-box>div{width: 50%; margin-bottom: 30px;}
+.sec4 .sub-title{font-size: 24px;}
+.sec3 .flex-box>div{width: 50%;}
+.sec2 .flex-box .cont2 .bottom{width: 60%;}
+.sec2 .flex-box .cont2 .top p{display: none;}
+.sec2 .flex-box>div{width: 100%;}
+.sec2 .flex-box>div:nth-child(2){display: none;}
+
+}
+
+@media (max-width:767px){
+.sec1{display: none;}
+.intro_mo{display: block;height: 100vh;  line-height: 100vh;}
+.intro_mo img{ display: inline; vertical-align: middle;}
+
+.sec4 .flex-box>div, .sec3 .flex-box>div{width: 100%; margin-bottom: 30px;}
+.sec2 h2, .sec3 h2,.sec4 h2{font-size: 24px;}
+.sec2 h2 span, .sec3 h2 span,.sec4 h2 span{display: block;}
+
+
+@keyframes ani1{
+    from{} /* from값 생략가능 */
+    to{left: 20%;}}
+
+
+.sec2 .flex-box .cont1 .text1>h2{font-size: 24px;}    
+.sec2 .flex-box .cont1 .text2>span{font-size: 20px;}
+.sec2 .flex-box .cont1 .text2 br{display: none;}
+
+
+
+.sec2 h2>span, .sec3 h2>span, .sec4 h2>span{font-size: 16px; font-weight: normal; margin-top: 100px;}
+
+.sec3, .sec4{height: auto;}
+
+}
+
+/* 모바일에서 화면을 돌렸을 때 설정하는 태그 */
+ @media (orientation:landscape){
+    .intro_mo{height: 100vh;}
+    .intro_mo img{height: 100vh;width: auto; margin: auto; display: block;}
+     .sec2{height:150vh; }
+ /*    .sec1 .right .line{width: 200px;height:200px;right:100px;}
+    .sec1 .right .img-box{width: 200px;right:20px;} */
+.sec3, .sec4{height:auto; padding: 100px 40px;}
+} 
+
+</style>
+</head>
+
+<body>
+<main>
+    <section class="sec1 flex-box container">
+        <div class="left">
+            <h2>PORTFOLIO</h2>
+        </div>
+
+        <div class="right">
+            <img src="img/intro_album.png" alt="" class="line">
+            <div class="img-box"><img src="img/lp_intro.png" alt=""></div>
+        </div>
+    </section>
+<section class="intro_mo"><img src="img/intro_mo.png" alt=""></section>
+    <section class="sec2 container">
+        <h2 style="font-family:'Bowlby One'"><span>TITLE </span>ABOUT ME</h2>
+        <div class="title-line"></div>
+
+        <div class="flex-box">
+            <div class="cont1">
+                <div class="text1" data-aos="fade-right" data-aos-duration="500">
+                    <h2>안녕하세요. <br>
+                    하나의 곡 처럼 스토리를 디자인하는 <br>
+                    김건우 입니다.</h2>
+                </div>
+        
+                    <div class="text2" data-aos-delay="200" data-aos="fade-right" data-aos-duration="500">
+                        <span>하나의 앨범에는 아티스트가 의도한 <br>
+                        여러 가지 매력의 곡들이 있습니다. <br>
+                        저 또한 앨범을 작업하는 아티스트와 같이 <br>
+                        여러 가지 매력을 담아내는 디자이너가 되고 싶습니다.
+                        </span>
+                    </div>
+            </div>
+
+            <div class="cont2">
+                <div class="top" data-aos-delay="600" data-aos="fade-down" data-aos-duration="600">
+                    <p>STORY</p>
+                </div>
+
+                <div class="bottom" data-aos-delay="700" data-aos="fade-down" data-aos-duration="700">
+                    <img src="img/lp_all.png" alt="">
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </section>
+
+    <section class="sec3 container">
+        <h2  style="font-family:'Bowlby One'"><span>TITLE </span>WEB DESIGN</h2>
+        <div class="title-line"></div>
+
+        <div class="flex-box">
+            <div class="lp-box">
+                <img src="img/genie.png" alt="" class="album"  onclick="open_modal(0)">
+                <div class="lp"><img src="img/lp_genie.png" alt=""></div>
+                <span>지니</span>
+            </div>
+            <div class="lp-box">
+                <img src="img/mcdonalds.png" alt="" class="album"  onclick="open_modal(1)">
+                <div class="lp"><img src="img/lp_mcdonalds.png" alt=""></div>
+                <span>맥도날드</span>
+            </div>
+        </div>
+    </section>
+
+    <section class="sec4 container">
+        <h2  style="font-family:'Bowlby One'"><span>TITLE </span>PROMOTION DESIGN</h2>
+        <div class="title-line"></div>
+
+        <p class="sub-title">Banner</p>
+        <div class="flex-box">
+            <div class="lp-box">
+                <img src="img/dermashare.png" alt="" class="album" onclick="open_modal(2)">
+                <div class="lp"><img src="img/lp_dermashare.png" alt=""></div>
+                <span>더마쉐어</span>
+            </div>
+            <div class="lp-box">
+                <img src="img/sulbing.jpg" alt="" class="album" onclick="open_modal(3)">
+                <div class="lp"><img src="img/lp_sulbing.png" alt=""></div>
+                <span>설빙</span>
+            </div>
+        </div>
+
+        <p  class="sub-title">Detail Page</p>
+        <div class="flex-box">
+            <div class="lp-box">
+                <img src="img/diptyque.png" alt="" class="album" onclick="open_modal(4)">
+                <div class="lp"><img src="img/lp_diptyque.png" alt=""></div>
+                <span>딥디크</span>
+            </div>
+            <div class="lp-box">
+                <img src="img/starbucks.png" alt="" class="album" onclick="open_modal(5)">
+                <div class="lp"><img src="img/lp_starbucks.png" alt=""></div>
+                <span>스타벅스</span>
+            </div>
+            <div class="lp-box">
+                <img src="img/koje.png" alt="" class="album" onclick="open_modal(6)">
+                <div class="lp"><img src="img/lp_koje.png" alt=""></div>
+                <span>코제</span>
+            </div>
+            <div class="lp-box">
+                <img src="img/jjbb.png" alt="" class="album" onclick="open_modal(7)">
+                <div class="lp"><img src="img/lp_jjbb.png" alt=""></div>
+                <span class="letter" style="font-family:'Bowlby One'">JJBB</span>
+            </div>
+        </div>
+
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</main>
+
+
+
+<!-- 모달 ====================  -->
+<!-- 모달0 구역 -->
+<div class="modal pc" >
+    <div class="modal-wrap">
+        <div class="modal-body ">
+                    <p class="genie"><a href="pro1/index.html" target="_blank"><i class="fa-solid fa-play" style="color: #0096ff;"></i>&nbsp; 웹 페이지 이동</a> </p>
+                    
+                    <img src="img/genie_guide_01.jpg" alt="">                 
+                    <img src="img/genie_guide_02.jpg" alt="">                 
+                    <img src="img/genie_guide_03.jpg" alt="">                 
+                    <img src="img/genie_guide_04.jpg" alt="">                 
+                    <img src="img/genie_guide_05.jpg" alt="">                 
+                    
+                    <span class="modal-close"><i class="fa-solid fa-xmark" style="color: #787878;"></i></span>
+        </div>
+    </div>   
+</div>
+<div class="modal pc" >
+    <div class="modal-wrap">
+        <div class="modal-body ">
+                    <p><a class="mc1" href="pro2/index.html" target="_blank">보러가기</a></p>
+                    <p class="mc2">반응형 웹페이지 리뉴얼</p>
+                    
+                    <img src="img/mc_guide_01.jpg" alt="">               
+                    <img src="img/mc_guide_02.jpg" alt="">               
+                    <img src="img/mc_guide_03.jpg" alt="">               
+                    <img src="img/mc_guide_04.jpg" alt="">               
+                    <img src="img/mc_guide_05.jpg" alt="">               
+                    
+                    <span class="modal-close"><i class="fa-solid fa-xmark" style="color: #787878;"></i></span>
+        </div>
+    </div>   
+</div>
+
+<div class="modal pc" >
+    <div class="modal-wrap">
+        <div class="modal-body ">
+                    <img src="img/dermashare_banner_01.jpg" alt="">               
+                    <img src="img/dermashare_banner_02.jpg" alt="">               
+                    <img src="img/dermashare_banner_03.jpg" alt="">              
+                    
+                    <span class="modal-close"><i class="fa-solid fa-xmark" style="color: #787878;"></i></span>
+        </div>
+    </div>   
+</div>
+
+<div class="modal pc" >
+    <div class="modal-wrap">
+        <div class="modal-body ">
+                    <img src="img/sulbing_banner_01.jpg" alt="">
+                    <img src="img/sulbing_banner_02.jpg" alt="">
+                    <img src="img/sulbing_banner_03.jpg" alt="">
+                    
+                    <span class="modal-close"><i class="fa-solid fa-xmark" style="color: #787878;"></i></span>
+        </div>
+    </div>   
+</div>
+
+
+
+<!-- 모달4 구역 상세페이지 시작-->
+<div class="modal " >
+    <div class="modal-wrap">
+        <div class="modal-body ">
+                    <h2 class="detail1">상세페이지</h2>
+                    <h2 class="detail2">딥디크 필로시코스</h2>
+                    <p class="diptyque">딥디크 향수에서 영감을 받아 깔끔한 투명 배경과 검정 글자로 디자인했습니다. <br>
+                    무화과와 나무 향을 담은 제품인 만큼, 자연의 사진과 무화과와 어울리는 이미지를 <br>
+                    함께 배치해 상큼하고 편안한 분위기를 표현했습니다.</p>
+                    <img src="img/diptyque_pro_01.jpg" alt="" class="img-top">   
+                    <img src="img/diptyque_pro_02.jpg" alt="">   
+                    <img src="img/diptyque_pro_03.jpg" alt="">   
+                    <img src="img/diptyque_pro_04.jpg" alt="">   
+                    <img src="img/diptyque_pro_05.jpg" alt="">   
+                    
+                    <span class="modal-close diptyque-x"><i class="fa-solid fa-xmark" style="color: #787878;"></i></span>
+        </div>
+    </div>   
+</div>
+
+<div class="modal " >
+    <div class="modal-wrap">
+        <div class="modal-body ">
+                    <h2 class="detail1">상세페이지</h2>
+                    <h2 class="detail2">스타벅스 단테 텀블러</h2>
+                    <p class="starbucks">텀블러의 핑크를 메인 포인트로 사용해 <br>
+                    해당 브랜드의 제품이 나타내고자 하는 <br>
+                    발랄하고 유쾌한 무드를 표현했습니다. <br>
+                    텍스트는 자신감과 개성이 드러나는 폰트로 구성해 <br>
+                    한층 더 활기찬 느낌을 주었습니다.</p>
+                    <img src="img/starbucks_pro_01.jpg" alt=""  class="img-top">   
+                    <img src="img/starbucks_pro_02.jpg" alt="">   
+                    <img src="img/starbucks_pro_03.jpg" alt="">   
+                    <img src="img/starbucks_pro_04.jpg" alt="">   
+                    <img src="img/starbucks_pro_05.jpg" alt="">   
+                    
+                    <span class="modal-close"><i class="fa-solid fa-xmark" style="color: #787878;"></i></span>
+        </div>
+    </div>   
+</div>
+
+<div class="modal " >
+    <div class="modal-wrap">
+        <div class="modal-body ">
+                    <h2 class="detail1">상세페이지</h2>
+                    <h2 class="detail2">코제 무선 무드등</h2>
+                    <p class="starbucks">코제 무드등의 고급스럽고 모던한 분위기를 반영해, <br>
+                    큰 제목에는 세리프체를 사용했습니다. <br>
+                    또한 무드등의 베이스 컬러인 브라운 톤을 브랜드가 강조하는 요소에 적용해, <br>
+                    시각적 포인트와 함께 가독성을 높였습니다.</p>
+                    <img src="img/koje_pro_01.jpg" alt=""  class="img-top">   
+                    <img src="img/koje_pro_02.jpg" alt="">   
+                    <img src="img/koje_pro_03.jpg" alt="">   
+                    <img src="img/koje_pro_04.jpg" alt="">   
+                    <img src="img/koje_pro_05.jpg" alt="">   
+                    <img src="img/koje_pro_06.jpg" alt="">    
+
+                    
+                    <span class="modal-close diptyque-x"><i class="fa-solid fa-xmark" style="color: #787878;"></i></span>
+        </div>
+    </div>   
+</div>
+
+<div class="modal " >
+    <div class="modal-wrap">
+        <div class="modal-body ">
+                    <h2 class="detail1">상세페이지</h2>
+                    <h2 class="detail2">JJBB 실리콘 조명 무드등</h2>
+                    <p class="starbucks">귀여운 동물 친구들의 이미지를 살려 <br>
+                    둥글고 귀여운 폰트를 적용했습니다. <br>
+                    배경은 어두운 방에서 무드등이 켜진 듯한 <br>
+                    은은하고 따뜻한 분위기로 연출해, <br>
+                    편안하고 포근한 무드를 완성했습니다.</p>
+                    <img src="img/jjbb_pro_01.jpg" alt=""  class="img-top">   
+                    <img src="img/jjbb_pro_02.jpg" alt="">   
+                    <img src="img/jjbb_pro_03.jpg" alt="">   
+                    <img src="img/jjbb_pro_04.jpg" alt="">   
+                    <img src="img/jjbb_pro_05.jpg" alt="">   
+                    <img src="img/jjbb_pro_06.jpg" alt="">   
+
+                    
+                    <span class="modal-close diptyque-x"><i class="fa-solid fa-xmark" style="color: #787878;"></i></span>
+        </div>
+    </div>   
+</div>
+
+
+
+
+
+
+
+
+
+
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+    $(function(){
+        $('.lp-box').mouseover(function(){
+            $(this).children('.lp').addClass('rotate-box');
+        });
+        $('.lp-box').mouseout(function(){
+            $(this).children('.lp').removeClass('rotate-box');
+        });
+
+    });
+</script>
+<script>
+    let modal = document.querySelectorAll('.modal');  /* 모달창 */
+ 
+    function open_modal(modal_num){  
+           $('body').css('overflow','hidden');      
+
+           modal[modal_num].style.display ='block';  /* 매개변수를 통하여 배열번호를 전달받아 해당 클래스(모달창)를 열어줌 */
+                      
+            $('.modal-close').click(function(){
+                $('body').css('overflow','auto');
+                $('.modal').css('display','none');
+                            });  
+         } ;
+</script>
+
+
+ <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+ <script>
+	 AOS.init({ disable: 'mobile' });
+ </script>
+</body>
+</html>
